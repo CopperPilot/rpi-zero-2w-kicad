@@ -1,0 +1,336 @@
+(footprint "SOT91P240X110-3N_DMG2305UX-7"
+(version 20260206)
+(generator "pcbnew")
+(generator_version "10.0")
+	(layer "F.Cu")
+	(uuid "b9a50e51-4198-4e4f-8718-cfc7bb85c964")
+	(property "Reference" "REF**"
+		(at 2.8694 -1.55204 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "3269187c-bf35-4bd3-a38a-d45d1fb04668")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.2)
+			)
+		)
+	)
+	(property "Value" "DMG2305UX-7"
+		(at -3.443402 5.634675 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "6e8d6a6d-b08d-4308-8afa-93ae65937241")
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/47e4eca1ed8982a4ce6cf0c3e9eb9c9f.pdf"
+		(at 0 0 90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "913654c2-56f2-4126-a709-6b431049d19c")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "P-Channel MOSFET 20V 4.2A SOT-23"
+		(at 0 0 90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "32b1cc4a-a7af-4eed-b5c2-d6ebd2e8c05f")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "MPN" "DMG2305UX-7"
+		(at 161.5011 109.0286 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(hide yes)
+		)
+	)
+	(property "LCSC" "C150470"
+		(at 161.5011 109.0286 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(hide yes)
+		)
+	)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start 0.7 -1.55)
+		(end 0.7 -0.63)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e70c0dcf-dc12-442d-b815-198e844ef03c")
+	)
+	(fp_line
+		(start -0.7 -1.55)
+		(end 0.7 -1.55)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c45117b8-6b07-4433-bd2a-5d48b6a9d4b2")
+	)
+	(fp_line
+		(start 0.7 0.63)
+		(end 0.7 1.55)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8381f469-0785-4e56-8caf-4fc67645e1c9")
+	)
+	(fp_line
+		(start -0.7 1.55)
+		(end 0.7 1.55)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cdea8d1a-5fc9-4afa-a63a-0506be144efe")
+	)
+	(fp_circle
+		(center -1.87611 -1.47019)
+		(end -1.77611 -1.47019)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "29a49197-bd1c-4231-8642-e3d3a16a2b2f")
+	)
+	(fp_line
+		(start 0.7 -1.5)
+		(end 0.7 1.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "User.13")
+		(uuid "313265d5-b9c3-4cde-96de-860f618ffbc9")
+	)
+	(fp_line
+		(start -0.7 -1.5)
+		(end 0.7 -1.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "User.13")
+		(uuid "7dabb6ec-285d-4a64-b58c-0d14551e916a")
+	)
+	(fp_line
+		(start -0.7 -1.5)
+		(end -0.7 1.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "User.13")
+		(uuid "d7f42d67-5f42-4645-a3c1-8ce82c8cd48a")
+	)
+	(fp_line
+		(start -0.7 1.5)
+		(end 0.7 1.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "User.13")
+		(uuid "ccdc0069-70ad-444f-b164-dfcdef65d76b")
+	)
+	(fp_circle
+		(center -1.87611 -1.47019)
+		(end -1.77611 -1.47019)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "User.13")
+		(uuid "76d96791-dff9-431c-8cd7-0a4b54730bc3")
+	)
+	(fp_line
+		(start 0.95 -1.75)
+		(end 0.95 -0.56)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "User.15")
+		(uuid "22d50820-485a-4048-afa8-77839a567031")
+	)
+	(fp_line
+		(start -0.95 -1.75)
+		(end 0.95 -1.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "User.15")
+		(uuid "bb61a52b-39f9-4551-aba1-101db89dd242")
+	)
+	(fp_line
+		(start -0.95 -1.75)
+		(end -0.95 -1.47)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "User.15")
+		(uuid "b186a095-70ee-4cda-8b10-84be7312a6ce")
+	)
+	(fp_line
+		(start -1.87 -1.47)
+		(end -0.95 -1.47)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "User.15")
+		(uuid "42731d17-8b98-4428-9adf-be466a51d7a4")
+	)
+	(fp_line
+		(start -1.87 -1.47)
+		(end -1.87 1.47)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "User.15")
+		(uuid "c6bd09bc-cfca-44a7-8469-d17581907eb1")
+	)
+	(fp_line
+		(start 1.87 -0.56)
+		(end 1.87 0.56)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "User.15")
+		(uuid "ce979b5b-6abe-47fb-a59c-8b042cd99536")
+	)
+	(fp_line
+		(start 0.95 -0.56)
+		(end 1.87 -0.56)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "User.15")
+		(uuid "10781af1-323e-496b-8c53-c9422b864b1f")
+	)
+	(fp_line
+		(start 0.95 0.56)
+		(end 1.87 0.56)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "User.15")
+		(uuid "c218ffaa-34b1-4ea9-885c-62bbd4afda06")
+	)
+	(fp_line
+		(start 0.95 0.56)
+		(end 0.95 1.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "User.15")
+		(uuid "d8671819-5804-4987-a14f-41ae1667125e")
+	)
+	(fp_line
+		(start -0.95 1.47)
+		(end -0.95 1.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "User.15")
+		(uuid "50b8e05b-2bf5-46eb-8e15-10a56bf2c8ea")
+	)
+	(fp_line
+		(start -1.87 1.47)
+		(end -0.95 1.47)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "User.15")
+		(uuid "ac64791d-92a0-440c-82a4-485c3a5f5b04")
+	)
+	(fp_line
+		(start -0.95 1.75)
+		(end 0.95 1.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "User.15")
+		(uuid "430e04f7-2f58-4770-8d7c-2eeba629f1b4")
+	)
+	(pad "1" smd roundrect
+		(at -1.025 -0.915 90)
+		(size 1.18 0.61)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.125)
+		(uuid "55db9938-1411-4ba7-8715-9f27dbad61b1")
+	)
+	(pad "2" smd roundrect
+		(at -1.025 0.915 90)
+		(size 1.18 0.61)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.125)
+		(uuid "28ad43b0-6ec7-4799-bbcf-f655a884c1ac")
+	)
+	(pad "3" smd roundrect
+		(at 1.025 0 90)
+		(size 1.18 0.61)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.125)
+		(uuid "64d8fa53-c50c-434f-9d9a-ead3cf55f04c")
+	)
+	(embedded_fonts no)
+	(embedded_files
+		(file
+			(name "DMG2305UX-7.step")
+			(type other)
+			(checksum "C5DE5E474B3B8482095CBF4674B3417E")
+		)
+	)
+	(model "kicad-embed://DMG2305UX-7.step"
+		(offset
+			(xyz -0 -0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 0)
+		)
+	)
+)

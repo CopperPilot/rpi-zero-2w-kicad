@@ -1,0 +1,1900 @@
+(footprint "PICO_PADS"
+(version 20260206)
+(generator "pcbnew")
+(generator_version "10.0")
+	(locked yes)
+	(layer "F.Cu")
+	(uuid "075c4b59-ad2e-4d42-b068-4d6d2025e65e")
+	(property "Reference" "REF**"
+		(at -1.9592 50.02915 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "0ff9d5d1-8e77-4f5d-8630-542f7a29777c")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.2)
+			)
+		)
+	)
+	(property "Value" "PICO_PADS"
+		(at 29.810202 19.293395 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "c10363bd-f749-4122-8890-1ae4fb6829cd")
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" "https://datasheets.raspberrypi.com/pico/pico-datasheet.pdf"
+		(at 0 0 270)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "64316594-b8cd-45ac-aabb-cc8bba3f066e")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "40-Pin Raspberry Pi Pico Castellated Edge Header"
+		(at 0 0 270)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "58b2ed42-8df7-4e80-bb30-941816ed8340")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "MPN" "PICO_PADS"
+		(at 169.6011 94.8586 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(hide yes)
+		)
+	)
+	(attr smd exclude_from_bom dnp)
+	(duplicate_pad_numbers_are_jumpers yes)
+	(fp_line
+		(start 0 51)
+		(end 0 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "User.1")
+		(uuid "ac4010c2-dbed-449e-8d01-4d3033b7ee00")
+	)
+	(fp_line
+		(start 20.32 51)
+		(end 0 51)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "User.1")
+		(uuid "7cf248c9-b75a-4639-946d-7c47e9b1a17c")
+	)
+	(fp_line
+		(start 20.32 51)
+		(end 20.32 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "User.1")
+		(uuid "34828425-ea42-4b66-8857-82d06043f425")
+	)
+	(fp_line
+		(start 20.32 0)
+		(end 0 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "User.1")
+		(uuid "544bde53-8efc-4358-896d-3e64e77bb27b")
+	)
+	(pad "1" thru_hole oval
+		(at 0 1.27 270)
+		(size 2.8829 1.6129)
+		(drill 0.95
+			(offset 0.635 0)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "cb6817e5-f252-4b71-bf52-670e99bb5da9")
+		(padstack
+			(mode front_inner_back)
+			(layer "Inner"
+				(shape oval)
+				(size 1.25 1.25)
+			)
+			(layer "B.Cu"
+				(shape oval)
+				(size 2.8829 1.6129)
+				(offset 0.635 0)
+			)
+		)
+	)
+	(pad "1" thru_hole oval
+		(at 1.27 1.27 90)
+		(size 2.8829 1.6129)
+		(drill 0.95
+			(offset 0.635 0)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "46ff1f7d-482d-4b19-9f62-a550d7286258")
+		(padstack
+			(mode front_inner_back)
+			(layer "Inner"
+				(shape oval)
+				(size 1.25 1.25)
+			)
+			(layer "B.Cu"
+				(shape oval)
+				(size 2.8829 1.6129)
+				(offset 0.635 0)
+			)
+		)
+	)
+	(pad "2" thru_hole oval
+		(at 0 3.81 270)
+		(size 2.8829 1.6129)
+		(drill 0.95
+			(offset 0.635 0)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "937b01a7-7a48-413d-a3c3-c6200a5d91a5")
+		(padstack
+			(mode front_inner_back)
+			(layer "Inner"
+				(shape oval)
+				(size 1.25 1.25)
+			)
+			(layer "B.Cu"
+				(shape oval)
+				(size 2.8829 1.6129)
+				(offset 0.635 0)
+			)
+		)
+	)
+	(pad "2" thru_hole oval
+		(at 1.27 3.81 90)
+		(size 2.8829 1.6129)
+		(drill 0.95
+			(offset 0.635 0)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "76870a1c-260e-466c-ac5e-34006c2494a9")
+		(padstack
+			(mode front_inner_back)
+			(layer "Inner"
+				(shape oval)
+				(size 1.25 1.25)
+			)
+			(layer "B.Cu"
+				(shape oval)
+				(size 2.8829 1.6129)
+				(offset 0.635 0)
+			)
+		)
+	)
+	(pad "3" thru_hole roundrect
+		(at 0 6.35 270)
+		(size 2.8829 1.6129)
+		(drill 0.95
+			(offset 0.635 0)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.125)
+		(uuid "f48610b0-b456-48c6-b6b2-072524b80ed9")
+		(padstack
+			(mode front_inner_back)
+			(layer "Inner"
+				(shape oval)
+				(size 1.25 1.25)
+			)
+			(layer "B.Cu"
+				(shape roundrect)
+				(size 2.8829 1.6129)
+				(offset 0.635 0)
+				(roundrect_rratio 0.125)
+			)
+		)
+	)
+	(pad "3" thru_hole roundrect
+		(at 1.27 6.35 90)
+		(size 2.8829 1.6129)
+		(drill 0.95
+			(offset 0.635 0)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.125)
+		(uuid "d7e15475-69dd-4086-b0eb-c8959d0337ec")
+		(padstack
+			(mode front_inner_back)
+			(layer "Inner"
+				(shape oval)
+				(size 1.25 1.25)
+			)
+			(layer "B.Cu"
+				(shape roundrect)
+				(size 2.8829 1.6129)
+				(offset 0.635 0)
+				(roundrect_rratio 0.125)
+			)
+		)
+	)
+	(pad "4" thru_hole oval
+		(at 0 8.89 270)
+		(size 2.8829 1.6129)
+		(drill 0.95
+			(offset 0.635 0)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f23a89db-1997-4ad0-a755-3ff32787e729")
+		(padstack
+			(mode front_inner_back)
+			(layer "Inner"
+				(shape oval)
+				(size 1.25 1.25)
+			)
+			(layer "B.Cu"
+				(shape oval)
+				(size 2.8829 1.6129)
+				(offset 0.635 0)
+			)
+		)
+	)
+	(pad "4" thru_hole oval
+		(at 1.27 8.89 90)
+		(size 2.8829 1.6129)
+		(drill 0.95
+			(offset 0.635 0)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a8599526-7099-4045-8dd9-34445ff78e5e")
+		(padstack
+			(mode front_inner_back)
+			(layer "Inner"
+				(shape oval)
+				(size 1.25 1.25)
+			)
+			(layer "B.Cu"
+				(shape oval)
+				(size 2.8829 1.6129)
+				(offset 0.635 0)
+			)
+		)
+	)
+	(pad "5" thru_hole oval
+		(at 0 11.43 270)
+		(size 2.8829 1.6129)
+		(drill 0.95
+			(offset 0.635 0)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "9f3393e8-aa20-4d22-8631-b95e6bc9cfa2")
+		(padstack
+			(mode front_inner_back)
+			(layer "Inner"
+				(shape oval)
+				(size 1.25 1.25)
+			)
+			(layer "B.Cu"
+				(shape oval)
+				(size 2.8829 1.6129)
+				(offset 0.635 0)
+			)
+		)
+	)
+	(pad "5" thru_hole oval
+		(at 1.27 11.43 90)
+		(size 2.8829 1.6129)
+		(drill 0.95
+			(offset 0.635 0)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "dbadbcc1-56d5-4968-a71f-20b739797106")
+		(padstack
+			(mode front_inner_back)
+			(layer "Inner"
+				(shape oval)
+				(size 1.25 1.25)
+			)
+			(layer "B.Cu"
+				(shape oval)
+				(size 2.8829 1.6129)
+				(offset 0.635 0)
+			)
+		)
+	)
+	(pad "6" thru_hole oval
+		(at 0 13.97 270)
+		(size 2.8829 1.6129)
+		(drill 0.95
+			(offset 0.635 0)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "9d60299c-f3d4-4a9b-815f-7b5b9e5c7471")
+		(padstack
+			(mode front_inner_back)
+			(layer "Inner"
+				(shape oval)
+				(size 1.25 1.25)
+			)
+			(layer "B.Cu"
+				(shape oval)
+				(size 2.8829 1.6129)
+				(offset 0.635 0)
+			)
+		)
+	)
+	(pad "6" thru_hole oval
+		(at 1.27 13.97 90)
+		(size 2.8829 1.6129)
+		(drill 0.95
+			(offset 0.635 0)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c362104d-91ae-4742-afbb-77c107cc9e82")
+		(padstack
+			(mode front_inner_back)
+			(layer "Inner"
+				(shape oval)
+				(size 1.25 1.25)
+			)
+			(layer "B.Cu"
+				(shape oval)
+				(size 2.8829 1.6129)
+				(offset 0.635 0)
+			)
+		)
+	)
+	(pad "7" thru_hole oval
+		(at 0 16.51 270)
+		(size 2.8829 1.6129)
+		(drill 0.95
+			(offset 0.635 0)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "9ce957e6-05cc-499d-adfa-e35a9fcf8fab")
+		(padstack
+			(mode front_inner_back)
+			(layer "Inner"
+				(shape oval)
+				(size 1.25 1.25)
+			)
+			(layer "B.Cu"
+				(shape oval)
+				(size 2.8829 1.6129)
+				(offset 0.635 0)
+			)
+		)
+	)
+	(pad "7" thru_hole oval
+		(at 1.27 16.51 90)
+		(size 2.8829 1.6129)
+		(drill 0.95
+			(offset 0.635 0)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "6aff2da9-30e6-441f-9395-b3e5dee17e84")
+		(padstack
+			(mode front_inner_back)
+			(layer "Inner"
+				(shape oval)
+				(size 1.25 1.25)
+			)
+			(layer "B.Cu"
+				(shape oval)
+				(size 2.8829 1.6129)
+				(offset 0.635 0)
+			)
+		)
+	)
+	(pad "8" thru_hole roundrect
+		(at 0 19.05 270)
+		(size 2.8829 1.6129)
+		(drill 0.95
+			(offset 0.635 0)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.125)
+		(uuid "05c24756-c682-4e27-836d-859fba0e7b56")
+		(padstack
+			(mode front_inner_back)
+			(layer "Inner"
+				(shape oval)
+				(size 1.25 1.25)
+			)
+			(layer "B.Cu"
+				(shape roundrect)
+				(size 2.8829 1.6129)
+				(offset 0.635 0)
+				(roundrect_rratio 0.125)
+			)
+		)
+	)
+	(pad "8" thru_hole roundrect
+		(at 1.27 19.05 90)
+		(size 2.8829 1.6129)
+		(drill 0.95
+			(offset 0.635 0)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.125)
+		(uuid "2e249132-f371-4434-ae66-bf48a7f2d457")
+		(padstack
+			(mode front_inner_back)
+			(layer "Inner"
+				(shape oval)
+				(size 1.25 1.25)
+			)
+			(layer "B.Cu"
+				(shape roundrect)
+				(size 2.8829 1.6129)
+				(offset 0.635 0)
+				(roundrect_rratio 0.125)
+			)
+		)
+	)
+	(pad "9" thru_hole oval
+		(at 0 21.59 270)
+		(size 2.8829 1.6129)
+		(drill 0.95
+			(offset 0.635 0)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e5cfbac6-13ab-4d99-96c4-4fb3f184f4b1")
+		(padstack
+			(mode front_inner_back)
+			(layer "Inner"
+				(shape oval)
+				(size 1.25 1.25)
+			)
+			(layer "B.Cu"
+				(shape oval)
+				(size 2.8829 1.6129)
+				(offset 0.635 0)
+			)
+		)
+	)
+	(pad "9" thru_hole oval
+		(at 1.27 21.59 90)
+		(size 2.8829 1.6129)
+		(drill 0.95
+			(offset 0.635 0)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "4a7a7355-a53c-43c6-b4b7-d50e88f69cf7")
+		(padstack
+			(mode front_inner_back)
+			(layer "Inner"
+				(shape oval)
+				(size 1.25 1.25)
+			)
+			(layer "B.Cu"
+				(shape oval)
+				(size 2.8829 1.6129)
+				(offset 0.635 0)
+			)
+		)
+	)
+	(pad "10" thru_hole oval
+		(at 0 24.13 270)
+		(size 2.8829 1.6129)
+		(drill 0.95
+			(offset 0.635 0)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "7baa4d65-0339-42ee-b0bb-5801018999be")
+		(padstack
+			(mode front_inner_back)
+			(layer "Inner"
+				(shape oval)
+				(size 1.25 1.25)
+			)
+			(layer "B.Cu"
+				(shape oval)
+				(size 2.8829 1.6129)
+				(offset 0.635 0)
+			)
+		)
+	)
+	(pad "10" thru_hole oval
+		(at 1.27 24.13 90)
+		(size 2.8829 1.6129)
+		(drill 0.95
+			(offset 0.635 0)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "0c3ce454-6632-419f-8a98-0f5289a76b5e")
+		(padstack
+			(mode front_inner_back)
+			(layer "Inner"
+				(shape oval)
+				(size 1.25 1.25)
+			)
+			(layer "B.Cu"
+				(shape oval)
+				(size 2.8829 1.6129)
+				(offset 0.635 0)
+			)
+		)
+	)
+	(pad "11" thru_hole oval
+		(at 0 26.67 270)
+		(size 2.8829 1.6129)
+		(drill 0.95
+			(offset 0.635 0)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "7e311ae9-0bac-4954-b5e5-c2b02df1d5a6")
+		(padstack
+			(mode front_inner_back)
+			(layer "Inner"
+				(shape oval)
+				(size 1.25 1.25)
+			)
+			(layer "B.Cu"
+				(shape oval)
+				(size 2.8829 1.6129)
+				(offset 0.635 0)
+			)
+		)
+	)
+	(pad "11" thru_hole oval
+		(at 1.27 26.67 90)
+		(size 2.8829 1.6129)
+		(drill 0.95
+			(offset 0.635 0)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "2545974e-56a5-4f6c-b975-85a43e53516a")
+		(padstack
+			(mode front_inner_back)
+			(layer "Inner"
+				(shape oval)
+				(size 1.25 1.25)
+			)
+			(layer "B.Cu"
+				(shape oval)
+				(size 2.8829 1.6129)
+				(offset 0.635 0)
+			)
+		)
+	)
+	(pad "12" thru_hole oval
+		(at 0 29.21 270)
+		(size 2.8829 1.6129)
+		(drill 0.95
+			(offset 0.635 0)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a90f0f16-97cd-4848-87bf-89ea47249d3b")
+		(padstack
+			(mode front_inner_back)
+			(layer "Inner"
+				(shape oval)
+				(size 1.25 1.25)
+			)
+			(layer "B.Cu"
+				(shape oval)
+				(size 2.8829 1.6129)
+				(offset 0.635 0)
+			)
+		)
+	)
+	(pad "12" thru_hole oval
+		(at 1.27 29.21 90)
+		(size 2.8829 1.6129)
+		(drill 0.95
+			(offset 0.635 0)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "0911b822-df26-4e56-b9ad-e8f45897afd8")
+		(padstack
+			(mode front_inner_back)
+			(layer "Inner"
+				(shape oval)
+				(size 1.25 1.25)
+			)
+			(layer "B.Cu"
+				(shape oval)
+				(size 2.8829 1.6129)
+				(offset 0.635 0)
+			)
+		)
+	)
+	(pad "13" thru_hole roundrect
+		(at 0 31.75 270)
+		(size 2.8829 1.6129)
+		(drill 0.95
+			(offset 0.635 0)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.125)
+		(uuid "7bc37f88-14c9-4292-906f-b0df7eb8f0f9")
+		(padstack
+			(mode front_inner_back)
+			(layer "Inner"
+				(shape oval)
+				(size 1.25 1.25)
+			)
+			(layer "B.Cu"
+				(shape roundrect)
+				(size 2.8829 1.6129)
+				(offset 0.635 0)
+				(roundrect_rratio 0.125)
+			)
+		)
+	)
+	(pad "13" thru_hole roundrect
+		(at 1.27 31.75 90)
+		(size 2.8829 1.6129)
+		(drill 0.95
+			(offset 0.635 0)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.125)
+		(uuid "3f39b280-abb0-4517-9754-56cce0737303")
+		(padstack
+			(mode front_inner_back)
+			(layer "Inner"
+				(shape oval)
+				(size 1.25 1.25)
+			)
+			(layer "B.Cu"
+				(shape roundrect)
+				(size 2.8829 1.6129)
+				(offset 0.635 0)
+				(roundrect_rratio 0.125)
+			)
+		)
+	)
+	(pad "14" thru_hole oval
+		(at 0 34.29 270)
+		(size 2.8829 1.6129)
+		(drill 0.95
+			(offset 0.635 0)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "afa72b69-241a-49be-892a-e9b9f6b69808")
+		(padstack
+			(mode front_inner_back)
+			(layer "Inner"
+				(shape oval)
+				(size 1.25 1.25)
+			)
+			(layer "B.Cu"
+				(shape oval)
+				(size 2.8829 1.6129)
+				(offset 0.635 0)
+			)
+		)
+	)
+	(pad "14" thru_hole oval
+		(at 1.27 34.29 90)
+		(size 2.8829 1.6129)
+		(drill 0.95
+			(offset 0.635 0)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a07876a1-7e46-4629-b7c2-299bb4da4017")
+		(padstack
+			(mode front_inner_back)
+			(layer "Inner"
+				(shape oval)
+				(size 1.25 1.25)
+			)
+			(layer "B.Cu"
+				(shape oval)
+				(size 2.8829 1.6129)
+				(offset 0.635 0)
+			)
+		)
+	)
+	(pad "15" thru_hole oval
+		(at 0 36.83 270)
+		(size 2.8829 1.6129)
+		(drill 0.95
+			(offset 0.635 0)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "7b77a18e-469e-48ed-9c28-128ce377aed4")
+		(padstack
+			(mode front_inner_back)
+			(layer "Inner"
+				(shape oval)
+				(size 1.25 1.25)
+			)
+			(layer "B.Cu"
+				(shape oval)
+				(size 2.8829 1.6129)
+				(offset 0.635 0)
+			)
+		)
+	)
+	(pad "15" thru_hole oval
+		(at 1.27 36.83 90)
+		(size 2.8829 1.6129)
+		(drill 0.95
+			(offset 0.635 0)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "4dfdddb3-8d2e-4ab7-b1a3-fedf100accc7")
+		(padstack
+			(mode front_inner_back)
+			(layer "Inner"
+				(shape oval)
+				(size 1.25 1.25)
+			)
+			(layer "B.Cu"
+				(shape oval)
+				(size 2.8829 1.6129)
+				(offset 0.635 0)
+			)
+		)
+	)
+	(pad "16" thru_hole oval
+		(at 0 39.37 270)
+		(size 2.8829 1.6129)
+		(drill 0.95
+			(offset 0.635 0)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d850167b-43e1-4a0e-a9f2-c26a74e31fc8")
+		(padstack
+			(mode front_inner_back)
+			(layer "Inner"
+				(shape oval)
+				(size 1.25 1.25)
+			)
+			(layer "B.Cu"
+				(shape oval)
+				(size 2.8829 1.6129)
+				(offset 0.635 0)
+			)
+		)
+	)
+	(pad "16" thru_hole oval
+		(at 1.27 39.37 90)
+		(size 2.8829 1.6129)
+		(drill 0.95
+			(offset 0.635 0)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3b9974b2-5938-4c00-9999-81a4f287dcc9")
+		(padstack
+			(mode front_inner_back)
+			(layer "Inner"
+				(shape oval)
+				(size 1.25 1.25)
+			)
+			(layer "B.Cu"
+				(shape oval)
+				(size 2.8829 1.6129)
+				(offset 0.635 0)
+			)
+		)
+	)
+	(pad "17" thru_hole oval
+		(at 0 41.91 270)
+		(size 2.8829 1.6129)
+		(drill 0.95
+			(offset 0.635 0)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d7f4005f-ee52-4507-9081-3891eb9ef36d")
+		(padstack
+			(mode front_inner_back)
+			(layer "Inner"
+				(shape oval)
+				(size 1.25 1.25)
+			)
+			(layer "B.Cu"
+				(shape oval)
+				(size 2.8829 1.6129)
+				(offset 0.635 0)
+			)
+		)
+	)
+	(pad "17" thru_hole oval
+		(at 1.27 41.91 90)
+		(size 2.8829 1.6129)
+		(drill 0.95
+			(offset 0.635 0)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "0bc3b338-7473-40da-8934-476f1e5badd6")
+		(padstack
+			(mode front_inner_back)
+			(layer "Inner"
+				(shape oval)
+				(size 1.25 1.25)
+			)
+			(layer "B.Cu"
+				(shape oval)
+				(size 2.8829 1.6129)
+				(offset 0.635 0)
+			)
+		)
+	)
+	(pad "18" thru_hole roundrect
+		(at 0 44.45 270)
+		(size 2.8829 1.6129)
+		(drill 0.95
+			(offset 0.635 0)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.125)
+		(uuid "51a15ae8-dd3a-43ee-acd5-58e12c41c657")
+		(padstack
+			(mode front_inner_back)
+			(layer "Inner"
+				(shape oval)
+				(size 1.25 1.25)
+			)
+			(layer "B.Cu"
+				(shape roundrect)
+				(size 2.8829 1.6129)
+				(offset 0.635 0)
+				(roundrect_rratio 0.125)
+			)
+		)
+	)
+	(pad "18" thru_hole roundrect
+		(at 1.27 44.45 90)
+		(size 2.8829 1.6129)
+		(drill 0.95
+			(offset 0.635 0)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.125)
+		(uuid "45889646-d6d9-40d3-9e20-d03325fe52da")
+		(padstack
+			(mode front_inner_back)
+			(layer "Inner"
+				(shape oval)
+				(size 1.25 1.25)
+			)
+			(layer "B.Cu"
+				(shape roundrect)
+				(size 2.8829 1.6129)
+				(offset 0.635 0)
+				(roundrect_rratio 0.125)
+			)
+		)
+	)
+	(pad "19" thru_hole oval
+		(at 0 46.99 270)
+		(size 2.8829 1.6129)
+		(drill 0.95
+			(offset 0.635 0)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "8e516aab-f7df-43e6-89d0-1a47302f8539")
+		(padstack
+			(mode front_inner_back)
+			(layer "Inner"
+				(shape oval)
+				(size 1.25 1.25)
+			)
+			(layer "B.Cu"
+				(shape oval)
+				(size 2.8829 1.6129)
+				(offset 0.635 0)
+			)
+		)
+	)
+	(pad "19" thru_hole oval
+		(at 1.27 46.99 90)
+		(size 2.8829 1.6129)
+		(drill 0.95
+			(offset 0.635 0)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d18d0f0e-5ee1-4a86-a300-e62cc2199063")
+		(padstack
+			(mode front_inner_back)
+			(layer "Inner"
+				(shape oval)
+				(size 1.25 1.25)
+			)
+			(layer "B.Cu"
+				(shape oval)
+				(size 2.8829 1.6129)
+				(offset 0.635 0)
+			)
+		)
+	)
+	(pad "20" thru_hole oval
+		(at 0 49.53 270)
+		(size 2.8829 1.6129)
+		(drill 0.95
+			(offset 0.635 0)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d0f430b1-ca84-41ca-af9d-f6eb310f23b3")
+		(padstack
+			(mode front_inner_back)
+			(layer "Inner"
+				(shape oval)
+				(size 1.25 1.25)
+			)
+			(layer "B.Cu"
+				(shape oval)
+				(size 2.8829 1.6129)
+				(offset 0.635 0)
+			)
+		)
+	)
+	(pad "20" thru_hole oval
+		(at 1.27 49.53 90)
+		(size 2.8829 1.6129)
+		(drill 0.95
+			(offset 0.635 0)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b7192f50-1ef3-44a8-8e26-b6b38298d1a9")
+		(padstack
+			(mode front_inner_back)
+			(layer "Inner"
+				(shape oval)
+				(size 1.25 1.25)
+			)
+			(layer "B.Cu"
+				(shape oval)
+				(size 2.8829 1.6129)
+				(offset 0.635 0)
+			)
+		)
+	)
+	(pad "21" thru_hole oval
+		(at 19.05 49.53 270)
+		(size 2.8829 1.6129)
+		(drill 0.95
+			(offset 0.635 0)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "83cf0db8-f780-46f8-b8e4-c5d83a4244c6")
+		(padstack
+			(mode front_inner_back)
+			(layer "Inner"
+				(shape oval)
+				(size 1.25 1.25)
+			)
+			(layer "B.Cu"
+				(shape oval)
+				(size 2.8829 1.6129)
+				(offset 0.635 0)
+			)
+		)
+	)
+	(pad "21" thru_hole oval
+		(at 20.32 49.53 90)
+		(size 2.8829 1.6129)
+		(drill 0.95
+			(offset 0.635 0)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "dcbdecc9-0203-4e3c-8633-64792d4408e1")
+		(padstack
+			(mode front_inner_back)
+			(layer "Inner"
+				(shape oval)
+				(size 1.25 1.25)
+			)
+			(layer "B.Cu"
+				(shape oval)
+				(size 2.8829 1.6129)
+				(offset 0.635 0)
+			)
+		)
+	)
+	(pad "22" thru_hole oval
+		(at 19.05 46.99 270)
+		(size 2.8829 1.6129)
+		(drill 0.95
+			(offset 0.635 0)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "86761385-5fff-479c-a750-2a67943f0939")
+		(padstack
+			(mode front_inner_back)
+			(layer "Inner"
+				(shape oval)
+				(size 1.25 1.25)
+			)
+			(layer "B.Cu"
+				(shape oval)
+				(size 2.8829 1.6129)
+				(offset 0.635 0)
+			)
+		)
+	)
+	(pad "22" thru_hole oval
+		(at 20.32 46.99 90)
+		(size 2.8829 1.6129)
+		(drill 0.95
+			(offset 0.635 0)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f0b23e34-2127-488e-ace1-213eb54d2370")
+		(padstack
+			(mode front_inner_back)
+			(layer "Inner"
+				(shape oval)
+				(size 1.25 1.25)
+			)
+			(layer "B.Cu"
+				(shape oval)
+				(size 2.8829 1.6129)
+				(offset 0.635 0)
+			)
+		)
+	)
+	(pad "23" thru_hole roundrect
+		(at 19.05 44.45 270)
+		(size 2.8829 1.6129)
+		(drill 0.95
+			(offset 0.635 0)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.125)
+		(uuid "cb0afad1-3761-430a-b237-33fd8e76b559")
+		(padstack
+			(mode front_inner_back)
+			(layer "Inner"
+				(shape oval)
+				(size 1.25 1.25)
+			)
+			(layer "B.Cu"
+				(shape roundrect)
+				(size 2.8829 1.6129)
+				(offset 0.635 0)
+				(roundrect_rratio 0.125)
+			)
+		)
+	)
+	(pad "23" thru_hole roundrect
+		(at 20.32 44.45 90)
+		(size 2.8829 1.6129)
+		(drill 0.95
+			(offset 0.635 0)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.125)
+		(uuid "5bb07ca5-3230-4b3f-9a6c-285cd628be0b")
+		(padstack
+			(mode front_inner_back)
+			(layer "Inner"
+				(shape oval)
+				(size 1.25 1.25)
+			)
+			(layer "B.Cu"
+				(shape roundrect)
+				(size 2.8829 1.6129)
+				(offset 0.635 0)
+				(roundrect_rratio 0.125)
+			)
+		)
+	)
+	(pad "24" thru_hole oval
+		(at 19.05 41.91 270)
+		(size 2.8829 1.6129)
+		(drill 0.95
+			(offset 0.635 0)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a7f0df2c-95e3-471d-a566-a2bc10e64054")
+		(padstack
+			(mode front_inner_back)
+			(layer "Inner"
+				(shape oval)
+				(size 1.25 1.25)
+			)
+			(layer "B.Cu"
+				(shape oval)
+				(size 2.8829 1.6129)
+				(offset 0.635 0)
+			)
+		)
+	)
+	(pad "24" thru_hole oval
+		(at 20.32 41.91 90)
+		(size 2.8829 1.6129)
+		(drill 0.95
+			(offset 0.635 0)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c5b87760-f280-4bb6-ac95-dbd962511a1d")
+		(padstack
+			(mode front_inner_back)
+			(layer "Inner"
+				(shape oval)
+				(size 1.25 1.25)
+			)
+			(layer "B.Cu"
+				(shape oval)
+				(size 2.8829 1.6129)
+				(offset 0.635 0)
+			)
+		)
+	)
+	(pad "25" thru_hole oval
+		(at 19.05 39.37 270)
+		(size 2.8829 1.6129)
+		(drill 0.95
+			(offset 0.635 0)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "9d94e404-586f-4222-be55-472818f7c8d5")
+		(padstack
+			(mode front_inner_back)
+			(layer "Inner"
+				(shape oval)
+				(size 1.25 1.25)
+			)
+			(layer "B.Cu"
+				(shape oval)
+				(size 2.8829 1.6129)
+				(offset 0.635 0)
+			)
+		)
+	)
+	(pad "25" thru_hole oval
+		(at 20.32 39.37 90)
+		(size 2.8829 1.6129)
+		(drill 0.95
+			(offset 0.635 0)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f38429ba-bc85-4ba5-8ab0-5d466a77bb3e")
+		(padstack
+			(mode front_inner_back)
+			(layer "Inner"
+				(shape oval)
+				(size 1.25 1.25)
+			)
+			(layer "B.Cu"
+				(shape oval)
+				(size 2.8829 1.6129)
+				(offset 0.635 0)
+			)
+		)
+	)
+	(pad "26" thru_hole oval
+		(at 19.05 36.83 270)
+		(size 2.8829 1.6129)
+		(drill 0.95
+			(offset 0.635 0)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "06ec5936-f925-4dee-929a-0101d1ceae90")
+		(padstack
+			(mode front_inner_back)
+			(layer "Inner"
+				(shape oval)
+				(size 1.25 1.25)
+			)
+			(layer "B.Cu"
+				(shape oval)
+				(size 2.8829 1.6129)
+				(offset 0.635 0)
+			)
+		)
+	)
+	(pad "26" thru_hole oval
+		(at 20.32 36.83 90)
+		(size 2.8829 1.6129)
+		(drill 0.95
+			(offset 0.635 0)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "ba25ebfe-3ae2-41ec-be0f-5ea5fa0b804e")
+		(padstack
+			(mode front_inner_back)
+			(layer "Inner"
+				(shape oval)
+				(size 1.25 1.25)
+			)
+			(layer "B.Cu"
+				(shape oval)
+				(size 2.8829 1.6129)
+				(offset 0.635 0)
+			)
+		)
+	)
+	(pad "27" thru_hole oval
+		(at 19.05 34.29 270)
+		(size 2.8829 1.6129)
+		(drill 0.95
+			(offset 0.635 0)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "5945279f-e08f-4bb9-9365-04e836f879ef")
+		(padstack
+			(mode front_inner_back)
+			(layer "Inner"
+				(shape oval)
+				(size 1.25 1.25)
+			)
+			(layer "B.Cu"
+				(shape oval)
+				(size 2.8829 1.6129)
+				(offset 0.635 0)
+			)
+		)
+	)
+	(pad "27" thru_hole oval
+		(at 20.32 34.29 90)
+		(size 2.8829 1.6129)
+		(drill 0.95
+			(offset 0.635 0)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "19aa75de-177f-4721-9311-12d511e4ed9e")
+		(padstack
+			(mode front_inner_back)
+			(layer "Inner"
+				(shape oval)
+				(size 1.25 1.25)
+			)
+			(layer "B.Cu"
+				(shape oval)
+				(size 2.8829 1.6129)
+				(offset 0.635 0)
+			)
+		)
+	)
+	(pad "28" thru_hole roundrect
+		(at 19.05 31.75 270)
+		(size 2.8829 1.6129)
+		(drill 0.95
+			(offset 0.635 0)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.125)
+		(uuid "7455d04b-c1fe-41be-a0cd-9033fb3cfe29")
+		(padstack
+			(mode front_inner_back)
+			(layer "Inner"
+				(shape oval)
+				(size 1.25 1.25)
+			)
+			(layer "B.Cu"
+				(shape roundrect)
+				(size 2.8829 1.6129)
+				(offset 0.635 0)
+				(roundrect_rratio 0.125)
+			)
+		)
+	)
+	(pad "28" thru_hole roundrect
+		(at 20.32 31.75 90)
+		(size 2.8829 1.6129)
+		(drill 0.95
+			(offset 0.635 0)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.125)
+		(uuid "1f2275f7-805a-4958-a43b-13fa2aae877f")
+		(padstack
+			(mode front_inner_back)
+			(layer "Inner"
+				(shape oval)
+				(size 1.25 1.25)
+			)
+			(layer "B.Cu"
+				(shape roundrect)
+				(size 2.8829 1.6129)
+				(offset 0.635 0)
+				(roundrect_rratio 0.125)
+			)
+		)
+	)
+	(pad "29" thru_hole oval
+		(at 19.05 29.21 270)
+		(size 2.8829 1.6129)
+		(drill 0.95
+			(offset 0.635 0)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b28791c0-d67e-4af9-a7c4-35fc1d9c8d6e")
+		(padstack
+			(mode front_inner_back)
+			(layer "Inner"
+				(shape oval)
+				(size 1.25 1.25)
+			)
+			(layer "B.Cu"
+				(shape oval)
+				(size 2.8829 1.6129)
+				(offset 0.635 0)
+			)
+		)
+	)
+	(pad "29" thru_hole oval
+		(at 20.32 29.21 90)
+		(size 2.8829 1.6129)
+		(drill 0.95
+			(offset 0.635 0)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "9cc74b35-38f3-4685-9c55-b541dab14ee8")
+		(padstack
+			(mode front_inner_back)
+			(layer "Inner"
+				(shape oval)
+				(size 1.25 1.25)
+			)
+			(layer "B.Cu"
+				(shape oval)
+				(size 2.8829 1.6129)
+				(offset 0.635 0)
+			)
+		)
+	)
+	(pad "30" thru_hole oval
+		(at 19.05 26.67 270)
+		(size 2.8829 1.6129)
+		(drill 0.95
+			(offset 0.635 0)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "2e344d76-6277-4852-9e55-77316e7bfb7f")
+		(padstack
+			(mode front_inner_back)
+			(layer "Inner"
+				(shape oval)
+				(size 1.25 1.25)
+			)
+			(layer "B.Cu"
+				(shape oval)
+				(size 2.8829 1.6129)
+				(offset 0.635 0)
+			)
+		)
+	)
+	(pad "30" thru_hole oval
+		(at 20.32 26.67 90)
+		(size 2.8829 1.6129)
+		(drill 0.95
+			(offset 0.635 0)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c288b088-f20e-4f75-a5a9-de2d8dcd5d6c")
+		(padstack
+			(mode front_inner_back)
+			(layer "Inner"
+				(shape oval)
+				(size 1.25 1.25)
+			)
+			(layer "B.Cu"
+				(shape oval)
+				(size 2.8829 1.6129)
+				(offset 0.635 0)
+			)
+		)
+	)
+	(pad "31" thru_hole oval
+		(at 19.05 24.13 270)
+		(size 2.8829 1.6129)
+		(drill 0.95
+			(offset 0.635 0)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "96f0638b-9e37-46e3-99f5-d7591fe951c6")
+		(padstack
+			(mode front_inner_back)
+			(layer "Inner"
+				(shape oval)
+				(size 1.25 1.25)
+			)
+			(layer "B.Cu"
+				(shape oval)
+				(size 2.8829 1.6129)
+				(offset 0.635 0)
+			)
+		)
+	)
+	(pad "31" thru_hole oval
+		(at 20.32 24.13 90)
+		(size 2.8829 1.6129)
+		(drill 0.95
+			(offset 0.635 0)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "808da19e-cee6-4cf1-93a6-abf8b10c7be9")
+		(padstack
+			(mode front_inner_back)
+			(layer "Inner"
+				(shape oval)
+				(size 1.25 1.25)
+			)
+			(layer "B.Cu"
+				(shape oval)
+				(size 2.8829 1.6129)
+				(offset 0.635 0)
+			)
+		)
+	)
+	(pad "32" thru_hole oval
+		(at 19.05 21.59 270)
+		(size 2.8829 1.6129)
+		(drill 0.95
+			(offset 0.635 0)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "02f6ecb2-2a7b-4514-87a2-7298a54ec97f")
+		(padstack
+			(mode front_inner_back)
+			(layer "Inner"
+				(shape oval)
+				(size 1.25 1.25)
+			)
+			(layer "B.Cu"
+				(shape oval)
+				(size 2.8829 1.6129)
+				(offset 0.635 0)
+			)
+		)
+	)
+	(pad "32" thru_hole oval
+		(at 20.32 21.59 90)
+		(size 2.8829 1.6129)
+		(drill 0.95
+			(offset 0.635 0)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "cb70fa35-e056-49a1-9a64-74737fe4997e")
+		(padstack
+			(mode front_inner_back)
+			(layer "Inner"
+				(shape oval)
+				(size 1.25 1.25)
+			)
+			(layer "B.Cu"
+				(shape oval)
+				(size 2.8829 1.6129)
+				(offset 0.635 0)
+			)
+		)
+	)
+	(pad "33" thru_hole roundrect
+		(at 19.05 19.05 270)
+		(size 2.8829 1.6129)
+		(drill 0.95
+			(offset 0.635 0)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.125)
+		(uuid "7fb8f2bb-de47-43d2-ab55-f9264386074d")
+		(padstack
+			(mode front_inner_back)
+			(layer "Inner"
+				(shape oval)
+				(size 1.25 1.25)
+			)
+			(layer "B.Cu"
+				(shape roundrect)
+				(size 2.8829 1.6129)
+				(offset 0.635 0)
+				(roundrect_rratio 0.125)
+			)
+		)
+	)
+	(pad "33" thru_hole roundrect
+		(at 20.32 19.05 90)
+		(size 2.8829 1.6129)
+		(drill 0.95
+			(offset 0.635 0)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.125)
+		(uuid "e11360af-307e-4dc9-a364-3078c4c218dd")
+		(padstack
+			(mode front_inner_back)
+			(layer "Inner"
+				(shape oval)
+				(size 1.25 1.25)
+			)
+			(layer "B.Cu"
+				(shape roundrect)
+				(size 2.8829 1.6129)
+				(offset 0.635 0)
+				(roundrect_rratio 0.125)
+			)
+		)
+	)
+	(pad "34" thru_hole oval
+		(at 19.05 16.51 270)
+		(size 2.8829 1.6129)
+		(drill 0.95
+			(offset 0.635 0)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "2fe1e5b1-12d0-4038-bdb8-00dad40c9659")
+		(padstack
+			(mode front_inner_back)
+			(layer "Inner"
+				(shape oval)
+				(size 1.25 1.25)
+			)
+			(layer "B.Cu"
+				(shape oval)
+				(size 2.8829 1.6129)
+				(offset 0.635 0)
+			)
+		)
+	)
+	(pad "34" thru_hole oval
+		(at 20.32 16.51 90)
+		(size 2.8829 1.6129)
+		(drill 0.95
+			(offset 0.635 0)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3711c322-ae62-446d-95b5-5338aaa76cd3")
+		(padstack
+			(mode front_inner_back)
+			(layer "Inner"
+				(shape oval)
+				(size 1.25 1.25)
+			)
+			(layer "B.Cu"
+				(shape oval)
+				(size 2.8829 1.6129)
+				(offset 0.635 0)
+			)
+		)
+	)
+	(pad "35" thru_hole oval
+		(at 19.05 13.97 270)
+		(size 2.8829 1.6129)
+		(drill 0.95
+			(offset 0.635 0)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "293f85a1-00c1-41b2-abd3-503283fd2735")
+		(padstack
+			(mode front_inner_back)
+			(layer "Inner"
+				(shape oval)
+				(size 1.25 1.25)
+			)
+			(layer "B.Cu"
+				(shape oval)
+				(size 2.8829 1.6129)
+				(offset 0.635 0)
+			)
+		)
+	)
+	(pad "35" thru_hole oval
+		(at 20.32 13.97 90)
+		(size 2.8829 1.6129)
+		(drill 0.95
+			(offset 0.635 0)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "5b777898-fb46-4eef-a1f3-7afe046a8108")
+		(padstack
+			(mode front_inner_back)
+			(layer "Inner"
+				(shape oval)
+				(size 1.25 1.25)
+			)
+			(layer "B.Cu"
+				(shape oval)
+				(size 2.8829 1.6129)
+				(offset 0.635 0)
+			)
+		)
+	)
+	(pad "36" thru_hole oval
+		(at 19.05 11.43 270)
+		(size 2.8829 1.6129)
+		(drill 0.95
+			(offset 0.635 0)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "920f2852-6c34-418d-8433-fb3859df7ba2")
+		(padstack
+			(mode front_inner_back)
+			(layer "Inner"
+				(shape oval)
+				(size 1.25 1.25)
+			)
+			(layer "B.Cu"
+				(shape oval)
+				(size 2.8829 1.6129)
+				(offset 0.635 0)
+			)
+		)
+	)
+	(pad "36" thru_hole oval
+		(at 20.32 11.43 90)
+		(size 2.8829 1.6129)
+		(drill 0.95
+			(offset 0.635 0)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "87c71f72-c904-412d-b0c4-5a169f6fd15e")
+		(padstack
+			(mode front_inner_back)
+			(layer "Inner"
+				(shape oval)
+				(size 1.25 1.25)
+			)
+			(layer "B.Cu"
+				(shape oval)
+				(size 2.8829 1.6129)
+				(offset 0.635 0)
+			)
+		)
+	)
+	(pad "37" thru_hole oval
+		(at 19.05 8.89 270)
+		(size 2.8829 1.6129)
+		(drill 0.95
+			(offset 0.635 0)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d4493e94-24a0-4047-9109-738b8b160ceb")
+		(padstack
+			(mode front_inner_back)
+			(layer "Inner"
+				(shape oval)
+				(size 1.25 1.25)
+			)
+			(layer "B.Cu"
+				(shape oval)
+				(size 2.8829 1.6129)
+				(offset 0.635 0)
+			)
+		)
+	)
+	(pad "37" thru_hole oval
+		(at 20.32 8.89 90)
+		(size 2.8829 1.6129)
+		(drill 0.95
+			(offset 0.635 0)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "95e30403-f74b-4a7a-b21d-fc6e441e221a")
+		(padstack
+			(mode front_inner_back)
+			(layer "Inner"
+				(shape oval)
+				(size 1.25 1.25)
+			)
+			(layer "B.Cu"
+				(shape oval)
+				(size 2.8829 1.6129)
+				(offset 0.635 0)
+			)
+		)
+	)
+	(pad "38" thru_hole roundrect
+		(at 19.05 6.35 270)
+		(size 2.8829 1.6129)
+		(drill 0.95
+			(offset 0.635 0)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.125)
+		(uuid "ecade28f-b62d-422e-a15d-cb391220c8e1")
+		(padstack
+			(mode front_inner_back)
+			(layer "Inner"
+				(shape oval)
+				(size 1.25 1.25)
+			)
+			(layer "B.Cu"
+				(shape roundrect)
+				(size 2.8829 1.6129)
+				(offset 0.635 0)
+				(roundrect_rratio 0.125)
+			)
+		)
+	)
+	(pad "38" thru_hole roundrect
+		(at 20.32 6.35 90)
+		(size 2.8829 1.6129)
+		(drill 0.95
+			(offset 0.635 0)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.125)
+		(uuid "de80548b-c848-42cf-b85e-e77420bad7f9")
+		(padstack
+			(mode front_inner_back)
+			(layer "Inner"
+				(shape oval)
+				(size 1.25 1.25)
+			)
+			(layer "B.Cu"
+				(shape roundrect)
+				(size 2.8829 1.6129)
+				(offset 0.635 0)
+				(roundrect_rratio 0.125)
+			)
+		)
+	)
+	(pad "39" thru_hole oval
+		(at 19.05 3.81 270)
+		(size 2.8829 1.6129)
+		(drill 0.95
+			(offset 0.635 0)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "1b2e28c6-6c4f-4a9d-9055-c1967dc90fe9")
+		(padstack
+			(mode front_inner_back)
+			(layer "Inner"
+				(shape oval)
+				(size 1.25 1.25)
+			)
+			(layer "B.Cu"
+				(shape oval)
+				(size 2.8829 1.6129)
+				(offset 0.635 0)
+			)
+		)
+	)
+	(pad "39" thru_hole oval
+		(at 20.32 3.81 90)
+		(size 2.8829 1.6129)
+		(drill 0.95
+			(offset 0.635 0)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "1e4ef0b8-c9b1-4fda-ba04-7ec7b0ff649c")
+		(padstack
+			(mode front_inner_back)
+			(layer "Inner"
+				(shape oval)
+				(size 1.25 1.25)
+			)
+			(layer "B.Cu"
+				(shape oval)
+				(size 2.8829 1.6129)
+				(offset 0.635 0)
+			)
+		)
+	)
+	(pad "40" thru_hole oval
+		(at 19.05 1.27 270)
+		(size 2.8829 1.6129)
+		(drill 0.95
+			(offset 0.635 0)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c6e973a2-d7e2-4643-9b81-ac2f49b79021")
+		(padstack
+			(mode front_inner_back)
+			(layer "Inner"
+				(shape oval)
+				(size 1.25 1.25)
+			)
+			(layer "B.Cu"
+				(shape oval)
+				(size 2.8829 1.6129)
+				(offset 0.635 0)
+			)
+		)
+	)
+	(pad "40" thru_hole oval
+		(at 20.32 1.27 90)
+		(size 2.8829 1.6129)
+		(drill 0.95
+			(offset 0.635 0)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a9d0c3fc-11c2-4480-9622-9f2cdd69ddfa")
+		(padstack
+			(mode front_inner_back)
+			(layer "Inner"
+				(shape oval)
+				(size 1.25 1.25)
+			)
+			(layer "B.Cu"
+				(shape oval)
+				(size 2.8829 1.6129)
+				(offset 0.635 0)
+			)
+		)
+	)
+	(embedded_fonts no)
+)

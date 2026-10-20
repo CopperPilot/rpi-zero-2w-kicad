@@ -1,0 +1,252 @@
+(footprint "MOLEX_0475710001"
+(version 20260206)
+(generator "pcbnew")
+(generator_version "10.0")
+	(locked yes)
+	(layer "F.Cu")
+	(uuid "41c5a512-68f1-4c72-89f7-c2c214f93355")
+	(property "Reference" "REF**"
+		(at -7.046 2.13064 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "3e98aa45-ffc8-4372-b513-f29e7aa5be49")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.2)
+			)
+		)
+	)
+	(property "Value" "473092651"
+		(at 7.559802 -4.50624 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "a0472512-2a07-40b9-9455-4464c5bbf554")
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/salesdrawingpdf/473/47309/473092651_sd.pdf"
+		(at 0 0 270)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "67d3a26d-242d-488d-af41-b1dbb88464b3")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "MicroSD Card Connector Right-Angle SMD"
+		(at 0 0 270)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "801dc4bc-225b-4585-bfdb-5de0d3f3bfe4")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "MPN" "473092651"
+		(at 132.7011 105.0286 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(hide yes)
+		)
+	)
+	(property "LCSC" "C587826"
+		(at 132.7011 105.0286 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(hide yes)
+		)
+	)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start 4.25 2.725)
+		(end -4.4 2.725)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9fee1971-b639-4c8e-91eb-8b3fb810022a")
+	)
+	(fp_line
+		(start 5.7 -0.875)
+		(end 5.7 -2.725)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "620f4331-659b-4ff0-a159-2f6f653e766b")
+	)
+	(fp_line
+		(start -5.7 -1.275)
+		(end -5.7 -2.725)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f550a5cb-89a6-4cbd-800e-1f71702ade7f")
+	)
+	(fp_line
+		(start 5.7 -2.725)
+		(end -5.7 -2.725)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c8511190-bc19-4174-99d7-21512cf5950a")
+	)
+	(fp_line
+		(start -5.95 3.05)
+		(end -5.95 -2.95)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "User.15")
+		(uuid "262fb431-3941-4580-9f55-6eb2752e4621")
+	)
+	(fp_line
+		(start 6.15 3.05)
+		(end -5.95 3.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "User.15")
+		(uuid "d5759479-9c4e-4bfc-b9a6-e4166453b2ab")
+	)
+	(fp_line
+		(start 6.15 3.05)
+		(end 6.15 -2.95)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "User.15")
+		(uuid "c3837baa-8737-4de5-ad38-07c42d533572")
+	)
+	(fp_line
+		(start 6.15 -2.95)
+		(end -5.95 -2.95)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "User.15")
+		(uuid "671af6bf-80eb-46a2-a215-0a63974d6aee")
+	)
+	(pad "1" smd rect
+		(at 3.55 -1.415 90)
+		(size 0.7 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "2d067829-6507-4595-858d-1f1e74377018")
+	)
+	(pad "2" smd rect
+		(at 2.45 -1.415 90)
+		(size 0.7 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "0eac7867-3dbb-4edc-938b-c4ccf10c2e24")
+	)
+	(pad "3" smd rect
+		(at 1.35 -1.415 90)
+		(size 0.7 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "161d2f5d-6db3-4b89-8c07-fc611dbf33ca")
+	)
+	(pad "4" smd rect
+		(at 0.25 -1.415 90)
+		(size 0.7 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "ea5e73bf-dd1c-4831-9560-2e9e8e729a33")
+	)
+	(pad "5" smd rect
+		(at -0.85 -1.415 90)
+		(size 0.7 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "b3647407-d995-4e2a-878a-2bd5e0bc0211")
+	)
+	(pad "6" smd rect
+		(at -1.95 -1.415 90)
+		(size 0.7 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "5ee2caa5-bb00-4c3c-9cff-b45cd6130e96")
+	)
+	(pad "7" smd rect
+		(at -3.05 -1.415 90)
+		(size 0.7 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "c286b03c-e1d6-4f39-b09e-52616a2a0201")
+	)
+	(pad "8" smd rect
+		(at -4.15 -1.415 90)
+		(size 0.7 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "f82f3e5d-965e-4ff3-9ef3-038ccd5c4e5c")
+	)
+	(pad "9" smd rect
+		(at -5.225 -0.365 270)
+		(size 1.15 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "cd1d029a-6898-427a-a470-1b9645476dc1")
+	)
+	(pad "10" smd rect
+		(at -5.225 2.225 270)
+		(size 1.15 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "273731e0-5879-4011-aed8-6a743f2138ff")
+	)
+	(pad "11" smd rect
+		(at 5.2 2.375 270)
+		(size 1.4 0.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "0b6c1770-cd49-498f-ae5a-716d4a1aeaaa")
+	)
+	(pad "12" smd rect
+		(at 5.4 1.225 180)
+		(size 0.7 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "ce52a421-5cfb-4696-b8fb-4f1e7fba7539")
+	)
+	(pad "13" smd rect
+		(at 5.175 0.075 270)
+		(size 1.45 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "25186d99-27b7-42f8-b111-b020fa68a446")
+	)
+	(embedded_fonts no)
+	(embedded_files
+		(file
+			(name "475710001.stp")
+			(type other)
+			(checksum "1D21334AAD6A4451BB4CA5335E347314")
+		)
+	)
+	(model "kicad-embed://475710001.stp"
+		(offset
+			(xyz -0.32 -0.4 1.0922)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -180)
+		)
+	)
+)

@@ -1,0 +1,207 @@
+(footprint "INDC2016X100N"
+(version 20260206)
+(generator "pcbnew")
+(generator_version "10.0")
+	(layer "F.Cu")
+	(uuid "c1b9cdf6-93c6-4645-afde-c656db4bb1d3")
+	(property "Reference" "REF**"
+		(at 0.81944 2.4392 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "28e28643-ac6e-4696-9526-0012348e9fb9")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.2)
+			)
+		)
+	)
+	(property "Value" "470nH"
+		(at -4.47665 -2.533802 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "cee47f7a-2f17-4dfd-9f76-8431f7d034c0")
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.lcsc.com/product-detail/C89446.html"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b86c12b1-56d3-4c2e-bb18-1b6fe0c8fc2f")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "470nH 3.6A Power Inductor 2016 (0806)"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0714e618-5656-4b47-9425-2e0deef1ca3d")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "MPN" "TFM201610GHM-R47MTAA"
+		(at 158.2511 107.7286 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(hide yes)
+		)
+	)
+	(property "LCSC" "C89446"
+		(at 158.2511 107.7286 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(hide yes)
+		)
+	)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start 1.07 0.88)
+		(end -1.07 0.88)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "User.4")
+		(uuid "4b69faf7-d7bf-4ec3-89b0-b236dd08f3e7")
+	)
+	(fp_line
+		(start 1.07 0.88)
+		(end -1.07 0.88)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "User.4")
+		(uuid "d06105a8-0e60-439c-9722-8a86bad326e3")
+	)
+	(fp_line
+		(start 1.07 -0.88)
+		(end 1.07 0.88)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "User.4")
+		(uuid "906b06d7-7ef8-4e06-925d-2ff9d539de7b")
+	)
+	(fp_line
+		(start 1.07 -0.88)
+		(end 1.07 0.88)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "User.4")
+		(uuid "962bab63-6315-4aeb-ad73-90484b313800")
+	)
+	(fp_line
+		(start 1.07 -0.88)
+		(end -1.07 -0.88)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "User.4")
+		(uuid "532471d2-6777-4f12-a657-0e860e9dfd9d")
+	)
+	(fp_line
+		(start 1.07 -0.88)
+		(end -1.07 -0.88)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "User.4")
+		(uuid "966a1e11-9662-488e-af2b-6023548c6b13")
+	)
+	(fp_line
+		(start -1.07 -0.88)
+		(end -1.07 0.88)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "User.4")
+		(uuid "b46e8773-ef3b-412a-9622-98e5b99778ae")
+	)
+	(fp_line
+		(start -1.07 -0.88)
+		(end -1.07 0.88)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "User.4")
+		(uuid "d519d165-f69e-45bc-bfa6-05e7d2f4129a")
+	)
+	(fp_line
+		(start 1.685 1.135)
+		(end -1.685 1.135)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "User.16")
+		(uuid "87d801ed-f7b1-40e9-9160-2a98c9ab0644")
+	)
+	(fp_line
+		(start 1.685 -1.135)
+		(end 1.685 1.135)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "User.16")
+		(uuid "f7b6516c-25cf-4814-a21c-73b48ee47d47")
+	)
+	(fp_line
+		(start 1.685 -1.135)
+		(end -1.685 -1.135)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "User.16")
+		(uuid "d7db313a-e3d1-46bf-bd24-124e71df573c")
+	)
+	(fp_line
+		(start -1.685 -1.135)
+		(end -1.685 1.135)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "User.16")
+		(uuid "122b8ee1-c849-43ef-9888-bd92b2f0439d")
+	)
+	(pad "1" smd rect
+		(at -0.885 0 180)
+		(size 1.1 1.77)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "7b9988e0-327e-46e4-8846-0a3375ef9dbd")
+	)
+	(pad "2" smd rect
+		(at 0.885 0 180)
+		(size 1.1 1.77)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "976da55c-149e-4d07-82e2-d8c5e165d7a6")
+	)
+	(embedded_fonts no)
+)

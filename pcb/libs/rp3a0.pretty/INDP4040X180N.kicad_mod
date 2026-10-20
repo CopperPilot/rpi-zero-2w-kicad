@@ -1,0 +1,185 @@
+(footprint "INDP4040X180N"
+(version 20260206)
+(generator "pcbnew")
+(generator_version "10.0")
+	(layer "F.Cu")
+	(uuid "970eadfd-15bb-428d-9f66-26f52c86d78a")
+	(property "Reference" "REF**"
+		(at 7.78935 9.836 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "4777cd04-b448-474b-a201-3722644e0e67")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.2)
+			)
+		)
+	)
+	(property "Value" "4.7uH"
+		(at -0.41805 2.623598 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "0be99d7c-3c71-40ef-ac26-ccfd18009800")
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/d93edbfe5c35fc3f4ccbc82c8301c835.pdf"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3ea9548f-8a0c-4d07-a2f1-5ff57a50a19c")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "4.7uH 3.1A Power Inductor 4x4mm"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "146b0ea0-0a62-43f0-8f54-3d1dd9bf2702")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "MPN" "SRN4030HA-4R7Y"
+		(at 165.7011 109.6286 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(hide yes)
+		)
+	)
+	(property "LCSC" "C5926030"
+		(at 165.7011 109.6286 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(hide yes)
+		)
+	)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start 2 2)
+		(end -2 2)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1ec98bb4-1ef5-4577-b745-7e48dba901a3")
+	)
+	(fp_line
+		(start 2 -2)
+		(end -2 -2)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0e8a1b83-1187-4940-96b7-1fadb1d7e627")
+	)
+	(fp_line
+		(start 2 -2)
+		(end 2 2)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "User.13")
+		(uuid "2467e349-1494-4a5a-b8f6-5c437ded9276")
+	)
+	(fp_line
+		(start -2 -2)
+		(end -2 2)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "User.13")
+		(uuid "2db11d82-9a67-4407-84c9-0908d082bbce")
+	)
+	(fp_line
+		(start 2.55 2.25)
+		(end -2.55 2.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "User.15")
+		(uuid "11bbc6c6-ea36-422c-9b3c-5481b3e280ec")
+	)
+	(fp_line
+		(start 2.55 -2.25)
+		(end 2.55 2.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "User.15")
+		(uuid "0994a4b8-26ec-4348-ad46-64a9193f604d")
+	)
+	(fp_line
+		(start 2.55 -2.25)
+		(end -2.55 -2.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "User.15")
+		(uuid "793dc135-65ae-4ddd-93dd-8f6365ef85fe")
+	)
+	(fp_line
+		(start -2.55 -2.25)
+		(end -2.55 2.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "User.15")
+		(uuid "7963e2c8-9bec-4b96-b98f-5163823744cd")
+	)
+	(pad "1" smd rect
+		(at -1.525 0 180)
+		(size 1.5 3.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "1f1078ac-2d89-4234-a913-e630a26687e6")
+	)
+	(pad "2" smd rect
+		(at 1.525 0 180)
+		(size 1.5 3.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "1beef462-41ee-4738-9e3e-cd3d5690a08a")
+	)
+	(embedded_fonts no)
+	(embedded_files
+		(file
+			(name "7729714.stp")
+			(type other)
+			(checksum "77D25310A0EBEC18B508D2F2FB0BB48A")
+		)
+	)
+	(model "kicad-embed://7729714.stp"
+		(offset
+			(xyz -0 0 1.8288)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 -0 0)
+		)
+	)
+)

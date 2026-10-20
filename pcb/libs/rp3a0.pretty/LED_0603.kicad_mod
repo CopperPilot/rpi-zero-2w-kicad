@@ -70,6 +70,7 @@
 			(hide yes)
 		)
 	)
+	(attr smd)
 	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -1.397 0.635)
@@ -194,4 +195,15 @@
 		(uuid "a6e92f5e-5bde-41fb-b55d-fe140ffb12e8")
 	)
 	(embedded_fonts no)
+	(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_0603_1608Metric.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

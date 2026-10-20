@@ -70,6 +70,7 @@
 			(hide yes)
 		)
 	)
+	(attr smd)
 	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -0.9 -0.35)
@@ -144,4 +145,15 @@
 		(uuid "29f76ce2-b6a6-47be-af3b-8de7431a64f4")
 	)
 	(embedded_fonts no)
+	(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

@@ -70,6 +70,7 @@
 			(hide yes)
 		)
 	)
+	(attr smd)
 	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -1.25 -1)
@@ -164,4 +165,15 @@
 		(uuid "d909faec-af73-47f7-8071-8a1db0a70502")
 	)
 	(embedded_fonts no)
+	(model "${KICAD10_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_1008_2520Metric.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

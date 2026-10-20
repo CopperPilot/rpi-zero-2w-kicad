@@ -144,8 +144,8 @@
 		)
 		(capping no)
 		(filling no)
-		(aux_axis_origin 20.0011 211.2286)
-		(grid_origin 20.0011 211.2286)
+		(aux_axis_origin 118.5011 115.1786)
+		(grid_origin 118.5011 115.1786)
 		(pcbplotparams
 			(layerselection 0x00000000_00000000_55555555_5755f5ff)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
@@ -262,6 +262,7 @@
 		(path "/5ab4964e-1135-4332-8e38-c67139ddc18a/4a38052e-a3ef-550f-adb8-ee9d8b580ffb")
 		(sheetname "rp3a0-mini-hdmi")
 		(sheetfile "rp3a0-mini-hdmi.kicad_sch")
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 0.625 0.87)
@@ -591,6 +592,7 @@
 		(path "/7deface0-418e-4fc8-a851-bb9034f9c74d/5b6420f7-6b94-58ab-aaed-59d05d8381a0")
 		(sheetname "rp3a-mini-power")
 		(sheetfile "rp3a-mini-power.kicad_sch")
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.325 -0.17501)
@@ -707,6 +709,17 @@
 			(uuid "2a26c3b1-e24c-4d0e-87bc-e33ca74875d2")
 		)
 		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "rp3a0:0402"
 		(layer "F.Cu")
@@ -787,6 +800,7 @@
 		(path "/15f75c0f-475b-42ea-a2b6-96dd871660dd/7876b9c1-c08b-52c9-80d7-8b4166aa2a8a")
 		(sheetname "rp3a-mini-power")
 		(sheetfile "rp3a-mini-power.kicad_sch")
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.9 -0.35)
@@ -863,6 +877,17 @@
 			(uuid "ebe6b4c7-4580-4afa-ad30-7fdbc082b08b")
 		)
 		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "rp3a0:PICO_PADS"
 		(locked yes)
@@ -2927,6 +2952,7 @@
 		(path "/a478a1c2-f715-44c1-a6fd-058d97eda753/c45aab05-071b-5a56-92e6-817bbeaafce8")
 		(sheetname "rp3a-mini-power")
 		(sheetfile "rp3a-mini-power.kicad_sch")
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.25 -1)
@@ -3023,6 +3049,17 @@
 			(uuid "d909faec-af73-47f7-8071-8a1db0a70502")
 		)
 		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_1008_2520Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "rp3a0:0402"
 		(layer "F.Cu")
@@ -3103,6 +3140,7 @@
 		(path "/5eb89653-bf8b-490b-bc49-b95032cdf185/8c2b54b7-5325-5179-9e06-78a949483c67")
 		(sheetname "rp3a-mini-power")
 		(sheetfile "rp3a-mini-power.kicad_sch")
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.9 -0.35)
@@ -3179,6 +3217,17 @@
 			(uuid "696e390d-aef7-48b8-bcd1-98b6be354f79")
 		)
 		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "rp3a0:RES-0402-SML"
 		(layer "F.Cu")
@@ -3259,6 +3308,7 @@
 		(path "/fff205cf-ea0f-47eb-a074-2e52ec405f08/057bd2db-4ed5-5139-a748-f30ba85ecc7a")
 		(sheetname "rp3a-mini-power")
 		(sheetfile "rp3a-mini-power.kicad_sch")
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 0 -0.2)
@@ -3285,6 +3335,17 @@
 			(uuid "f3e4273c-e6e0-40d6-818f-4471ee6f10c3")
 		)
 		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "rp3a0:0603"
 		(layer "F.Cu")
@@ -3365,6 +3426,7 @@
 		(path "/8cd4ac9c-fd32-4f58-9030-00650fa2068b/80e07649-14d5-514b-8335-61bedbb05e7a")
 		(sheetname "rp3a-mini-power")
 		(sheetfile "rp3a-mini-power.kicad_sch")
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 0.325 -0.175)
@@ -3481,6 +3543,17 @@
 			(uuid "d429d0fe-5348-4f2d-a5f3-fb0705130119")
 		)
 		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "rp3a0:0402"
 		(layer "F.Cu")
@@ -3561,6 +3634,7 @@
 		(path "/f32459d9-fd49-4b4e-8a5a-9562ee2e14c9/ed92af1c-f05e-5515-b98e-23b3c4d99078")
 		(sheetname "rp3a-mini-power")
 		(sheetfile "rp3a-mini-power.kicad_sch")
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.9 -0.35)
@@ -3637,6 +3711,17 @@
 			(uuid "36304d54-b570-44c2-89c8-2414d1f53410")
 		)
 		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "rp3a0:RES-0402-SML"
 		(layer "F.Cu")
@@ -3717,6 +3802,7 @@
 		(path "/b76e78ce-75ce-4846-b0e7-1487d5e595cb/bfca8416-3548-5e08-be6e-28398f01dad4")
 		(sheetname "rp3a0-mini-gpio")
 		(sheetfile "rp3a0-mini-gpio.kicad_sch")
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 0 0.2)
@@ -3743,6 +3829,17 @@
 			(uuid "8fe9b3e8-83c9-4ea9-8591-8a45ab4c8f94")
 		)
 		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "rp3a0:RES-0402-SML"
 		(layer "F.Cu")
@@ -3823,6 +3920,7 @@
 		(path "/6c24a301-d92d-4f30-a216-b1a13475279c/f9b25173-630a-55d7-8b9e-206f642d943a")
 		(sheetname "rp3a0-mini-hdmi")
 		(sheetfile "rp3a0-mini-hdmi.kicad_sch")
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 0 0.2)
@@ -3849,6 +3947,17 @@
 			(uuid "16f46209-d300-49b5-8ef0-49803a9bc5cb")
 		)
 		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "rp3a0:RES-0402-SML"
 		(layer "F.Cu")
@@ -3929,6 +4038,7 @@
 		(path "/9cacd91a-3009-41c8-85cc-8a23c6dd5695/5c05a411-db90-57ae-9172-77ff30466d09")
 		(sheetname "rp3a0-mini-gpio")
 		(sheetfile "rp3a0-mini-gpio.kicad_sch")
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 0 0.2)
@@ -3955,6 +4065,17 @@
 			(uuid "cc6f133d-f7ce-4ac5-a17d-34ba3b3e8c87")
 		)
 		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "rp3a0:C0805_NP"
 		(layer "F.Cu")
@@ -4035,6 +4156,7 @@
 		(path "/e03d7698-e34e-441a-bab7-c8ee43ae83b6/988e478d-5357-5467-81c5-72f435f6b331")
 		(sheetname "rp3a-mini-power")
 		(sheetfile "rp3a-mini-power.kicad_sch")
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.1 -0.72501)
@@ -4151,6 +4273,17 @@
 			(uuid "d9f578de-730f-4bb7-86f7-bdd2af57c0f2")
 		)
 		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "rp3a0:RES-0402-SML"
 		(layer "F.Cu")
@@ -4231,6 +4364,7 @@
 		(path "/e6fe628d-5f6c-404d-866e-4a5ff08fc23f/467ae5ec-5b6d-548a-b58d-d6c9ee1623f2")
 		(sheetname "rp3a0-mini-misc")
 		(sheetfile "rp3a0-mini-misc.kicad_sch")
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 0 0.2)
@@ -4257,6 +4391,17 @@
 			(uuid "73c1098d-a776-4ea3-937f-067ec5668456")
 		)
 		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "rp3a0:RES-0402-SML"
 		(layer "F.Cu")
@@ -4337,6 +4482,7 @@
 		(path "/317f42a7-2ffd-4da7-a094-0f1b1b95bf84/b1ade56e-9c62-5532-94f6-24e93c4d286f")
 		(sheetname "rp3a0-mini-hdmi")
 		(sheetfile "rp3a0-mini-hdmi.kicad_sch")
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 0 0.2)
@@ -4363,6 +4509,17 @@
 			(uuid "6a02aade-291d-4643-ab25-0a0cd3de9ef7")
 		)
 		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "rp3a0:15B_WLCSP_1.31X2.11"
 		(layer "F.Cu")
@@ -4443,6 +4600,7 @@
 		(path "/770dab32-caf8-4cb7-aea5-b2e7156bdf99/8331e2a1-1fed-5ad8-b0da-0c2ad6903f2c")
 		(sheetname "rp3a-mini-power")
 		(sheetfile "rp3a-mini-power.kicad_sch")
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 1.1 1.9)
@@ -4710,6 +4868,7 @@
 		(path "/783a07f5-90d0-4ed6-9892-3d9f3e15da06/ba0435d2-6f30-5d01-9e03-3d3eeb15d7a7")
 		(sheetname "rp3a0-mini-wireless-sd")
 		(sheetfile "rp3a0-mini-wireless-sd.kicad_sch")
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 0 0.2)
@@ -4736,6 +4895,17 @@
 			(uuid "fb7ce504-ff09-4096-b4aa-4f7d25909047")
 		)
 		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "rp3a0:RES-0402-SML"
 		(layer "F.Cu")
@@ -4816,6 +4986,7 @@
 		(path "/bad14bc6-1821-4efa-bc6c-3994b0a75f44/49d123a7-d2ed-53c7-9e55-a6390663bee9")
 		(sheetname "rp3a0-mini-hdmi")
 		(sheetfile "rp3a0-mini-hdmi.kicad_sch")
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 0 0.2)
@@ -4842,6 +5013,17 @@
 			(uuid "935058da-1afc-4ca5-bf59-778c9ca91b35")
 		)
 		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "rp3a0:VREG_RT9081A_1BGQZA_2"
 		(layer "F.Cu")
@@ -4922,6 +5104,7 @@
 		(path "/9a36652f-76fb-434a-9474-940da037c42e/8ccdde4e-9406-5613-a017-45cebe25090c")
 		(sheetname "rp3a-mini-power")
 		(sheetfile "rp3a-mini-power.kicad_sch")
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 0.7 -0.6)
@@ -5244,6 +5427,7 @@
 		(path "/7e0ad4b6-cab0-480f-a975-65e4b2390ea1/9967df9e-0d67-5294-bf2e-2b317822986e")
 		(sheetname "rp3a0-mini-misc")
 		(sheetfile "rp3a0-mini-misc.kicad_sch")
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 0 0.2)
@@ -5270,6 +5454,17 @@
 			(uuid "b805c74e-678c-4327-93d3-2bd56ed26081")
 		)
 		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "rp3a0:SON45P300X300X80-13N"
 		(layer "F.Cu")
@@ -5350,6 +5545,7 @@
 		(path "/093db5ea-4600-4e82-9e11-12c10745dc48/af20c1f3-bebf-5a66-9104-9dee95a89072")
 		(sheetname "rp3a-mini-power")
 		(sheetfile "rp3a-mini-power.kicad_sch")
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.5 -1.5)
@@ -5632,6 +5828,7 @@
 		(path "/0fbf21f0-e191-4330-891d-99957b12a503/a1da2068-595a-5b5b-969d-cea196861b71")
 		(sheetname "rp3a-mini-power")
 		(sheetfile "rp3a-mini-power.kicad_sch")
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.9 -0.35)
@@ -5708,6 +5905,17 @@
 			(uuid "cf3927d3-8364-406a-9fff-04efcf51f48b")
 		)
 		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "rp3a0:TEST_POINT_1.2MM"
 		(layer "F.Cu")
@@ -5868,6 +6076,7 @@
 		(path "/96be1b99-15c2-4ec3-ae0e-78040aea5d98/abc7b061-1edd-5de8-95ec-876b09f8eb22")
 		(sheetname "rp3a0-mini-wireless-sd")
 		(sheetfile "rp3a0-mini-wireless-sd.kicad_sch")
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 4.25 2.725)
@@ -6139,6 +6348,7 @@
 		(path "/31c56ee1-b775-4c51-a863-477b6261eea2/4f7a1268-94d5-5b69-9ae1-341ae6b831a1")
 		(sheetname "rp3a-mini-power")
 		(sheetfile "rp3a-mini-power.kicad_sch")
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.9 -0.35)
@@ -6215,6 +6425,17 @@
 			(uuid "0a11a370-bac6-4d38-b851-d882db65141d")
 		)
 		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "rp3a0:TEST_POINT_1.2MM"
 		(layer "F.Cu")
@@ -6374,6 +6595,7 @@
 		(path "/ad5ff254-c202-418a-87b9-cfbfdc578403/aa60eb8a-6b27-56ae-9828-4ab364b9f729")
 		(sheetname "rp3a-mini-power")
 		(sheetfile "rp3a-mini-power.kicad_sch")
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 0 0.2)
@@ -6400,6 +6622,17 @@
 			(uuid "06666533-995a-495f-8ebc-51b331e7b59e")
 		)
 		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "rp3a0:0402"
 		(layer "F.Cu")
@@ -6480,6 +6713,7 @@
 		(path "/7ba5aaba-9731-4f52-ad89-3e4f7cda68e9/bdeadb6d-cc9f-5918-8ae0-7f64b74197c5")
 		(sheetname "rp3a-mini-power")
 		(sheetfile "rp3a-mini-power.kicad_sch")
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 0.9 -0.35)
@@ -6556,6 +6790,17 @@
 			(uuid "a533d740-0ba1-4e29-9f58-29987e05d6e6")
 		)
 		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "rp3a0:0402"
 		(layer "F.Cu")
@@ -6636,6 +6881,7 @@
 		(path "/1898b0cc-f6e5-44bf-bc21-c52210ea85fe/d1714121-dfbf-5cbf-9501-0045f206793c")
 		(sheetname "rp3a-mini-power")
 		(sheetfile "rp3a-mini-power.kicad_sch")
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 0.9 0.35)
@@ -6712,6 +6958,17 @@
 			(uuid "2a71707a-ca2c-4ea8-bf7e-8a20373566d6")
 		)
 		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "rp3a0:RES-0402-SML"
 		(layer "F.Cu")
@@ -6792,6 +7049,7 @@
 		(path "/30583fc6-bbe7-4853-b4a1-12bc6844d101/a2182ffb-1525-501b-aaee-9df279da0c45")
 		(sheetname "rp3a0-mini-hdmi")
 		(sheetfile "rp3a0-mini-hdmi.kicad_sch")
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 0 -0.2)
@@ -6818,6 +7076,17 @@
 			(uuid "2a739ed4-ee32-40bd-9495-4f0fc2798eca")
 		)
 		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "rp3a0:0402"
 		(layer "F.Cu")
@@ -6898,6 +7167,7 @@
 		(path "/f1ae9d7e-2f9c-4c7a-b7f1-995e88e0c4ed/595a785b-25b8-5841-a646-a8a4e077af08")
 		(sheetname "rp3a-mini-power")
 		(sheetfile "rp3a-mini-power.kicad_sch")
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.9 -0.35)
@@ -6974,6 +7244,17 @@
 			(uuid "36ab5980-e17b-442a-b315-b426e8b5713e")
 		)
 		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "rp3a0:RES-0402-SML"
 		(layer "F.Cu")
@@ -7054,6 +7335,7 @@
 		(path "/710c0179-7161-4ab0-870c-535c5145f1d6/40b03ab9-cc24-5c2b-a86e-eac232bca92d")
 		(sheetname "rp3a0-mini-hdmi")
 		(sheetfile "rp3a0-mini-hdmi.kicad_sch")
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 0 -0.2)
@@ -7080,6 +7362,17 @@
 			(uuid "55dac432-21c3-4cbe-a16f-7637e5c0a1ca")
 		)
 		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "rp3a0:0402"
 		(layer "F.Cu")
@@ -7160,6 +7453,7 @@
 		(path "/1010ec6e-8b26-48ea-b533-ef0e724b1e27/54c43d46-7b13-579d-b7e3-bb26e3eb4e88")
 		(sheetname "rp3a0-mini-misc")
 		(sheetfile "rp3a0-mini-misc.kicad_sch")
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.9 -0.35)
@@ -7236,6 +7530,17 @@
 			(uuid "1ee5c73e-1604-4292-ae5b-24a03700bea5")
 		)
 		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "rp3a0:RES-0402-SML"
 		(layer "F.Cu")
@@ -7316,6 +7621,7 @@
 		(path "/740cc833-3c76-4d5a-a913-bf241b257677/c8a3d75f-d904-5ec8-a1f0-b222e792693a")
 		(sheetname "rp3a0-mini-misc")
 		(sheetfile "rp3a0-mini-misc.kicad_sch")
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 0 -0.2)
@@ -7342,6 +7648,17 @@
 			(uuid "64b2ea89-0418-4c64-b51f-58f4828a9f81")
 		)
 		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "rp3a0:0402"
 		(layer "F.Cu")
@@ -7422,6 +7739,7 @@
 		(path "/90d78eb1-25a4-4cc4-855b-e9098f22fc3e/e7e6601c-44c3-597d-b01e-e96d278c66f0")
 		(sheetname "rp3a-mini-power")
 		(sheetfile "rp3a-mini-power.kicad_sch")
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.9 -0.35)
@@ -7498,6 +7816,17 @@
 			(uuid "478b58a8-4c87-4221-a41a-fcc4b1c8e648")
 		)
 		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "rp3a0:0402"
 		(layer "F.Cu")
@@ -7578,6 +7907,7 @@
 		(path "/cb28c238-63f6-44d4-8fd4-7c221d063e24/63161fc5-3c12-5f98-8bb3-91c4fb49d38c")
 		(sheetname "rp3a-mini-power")
 		(sheetfile "rp3a-mini-power.kicad_sch")
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.9 -0.35)
@@ -7654,6 +7984,17 @@
 			(uuid "3c7d6924-3464-4f4e-a321-4136cba8fefe")
 		)
 		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "rp3a0:C0805_NP"
 		(layer "F.Cu")
@@ -7734,6 +8075,7 @@
 		(path "/32d9ff17-5891-4a16-81d9-dad0abb18f18/ea5aef20-a90b-5371-a1ba-7da1ede58dd2")
 		(sheetname "rp3a-mini-power")
 		(sheetfile "rp3a-mini-power.kicad_sch")
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.1 0.725)
@@ -7850,6 +8192,17 @@
 			(uuid "0cbd31f2-2a22-49b9-b017-939fdf87d278")
 		)
 		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "rp3a0:RES-0402-SML"
 		(layer "F.Cu")
@@ -7930,6 +8283,7 @@
 		(path "/13df0803-2942-440e-b661-8f2780772853/350b9ff7-cbc8-5d6f-b489-ba79f080cdd2")
 		(sheetname "rp3a0-mini-hdmi")
 		(sheetfile "rp3a0-mini-hdmi.kicad_sch")
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 0 0.2)
@@ -7956,6 +8310,17 @@
 			(uuid "352060b4-a547-4785-9350-022acedf91bc")
 		)
 		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "rp3a0:RES-0402-SML"
 		(layer "F.Cu")
@@ -8036,6 +8401,7 @@
 		(path "/18b0131b-132f-44a3-81e0-ab739955320b/6648fd71-a2bf-5184-86f1-034ed51ce1e2")
 		(sheetname "rp3a0-mini-misc")
 		(sheetfile "rp3a0-mini-misc.kicad_sch")
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 0 0.2)
@@ -8062,6 +8428,17 @@
 			(uuid "040440a8-9721-4c14-bc0f-7472de4c2bfc")
 		)
 		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "rp3a0:0603"
 		(layer "F.Cu")
@@ -8142,6 +8519,7 @@
 		(path "/1108cbed-5476-4dc2-8ce9-64d77002d7f2/4163b164-9cbc-580b-89ba-9fb35e605c7c")
 		(sheetname "rp3a-mini-power")
 		(sheetfile "rp3a-mini-power.kicad_sch")
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.325 -0.175)
@@ -8258,6 +8636,17 @@
 			(uuid "7dbbe6ba-57cd-4a58-b98c-f5293d1deb94")
 		)
 		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "rp3a0:0402"
 		(layer "F.Cu")
@@ -8338,6 +8727,7 @@
 		(path "/bbdba9d7-ee21-4fea-a955-fa4873ef215b/daa40dfd-f0e1-572b-9278-9cc9b4539276")
 		(sheetname "rp3a-mini-power")
 		(sheetfile "rp3a-mini-power.kicad_sch")
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.9 -0.35)
@@ -8414,6 +8804,17 @@
 			(uuid "c9f097d5-bd2e-4ab2-b855-06200e5b7ca0")
 		)
 		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "rp3a0:MOLEX_105450-0101"
 		(layer "F.Cu")
@@ -8494,6 +8895,7 @@
 		(path "/d2c669b6-8b3a-4862-9fac-3fdb808cc91b/f9e6aa20-7900-55d5-b584-bc65cce5a761")
 		(sheetname "rp3a0-mini-hdmi")
 		(sheetfile "rp3a0-mini-hdmi.kicad_sch")
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 4.47 -1.9)
@@ -8938,6 +9340,7 @@
 		(path "/2fdb50fd-b14a-441b-b438-b47b4cea7657/cb8b791d-8fca-5d61-8805-21d55e32d04a")
 		(sheetname "rp3a0-mini-hdmi")
 		(sheetfile "rp3a0-mini-hdmi.kicad_sch")
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 0 0.2)
@@ -8964,6 +9367,17 @@
 			(uuid "5385ab52-a29f-487c-b100-afdfdb790851")
 		)
 		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "rp3a0:RES-0402-SML"
 		(layer "F.Cu")
@@ -9044,6 +9458,7 @@
 		(path "/1a381ab1-211d-4183-a626-9521fdc80cc3/d6b981e8-37b2-58c1-bb45-7c9721cb3229")
 		(sheetname "rp3a0-mini-hdmi")
 		(sheetfile "rp3a0-mini-hdmi.kicad_sch")
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 0 0.2)
@@ -9070,6 +9485,17 @@
 			(uuid "94495409-baef-4df3-b749-7add9308c7e1")
 		)
 		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "rp3a0:RES-0402-SML"
 		(layer "F.Cu")
@@ -9150,6 +9576,7 @@
 		(path "/fc73959b-aed2-4aa0-95f3-5131c57cdea2/15a32f85-b648-58d4-ac2d-b955e816e097")
 		(sheetname "rp3a0-mini-misc")
 		(sheetfile "rp3a0-mini-misc.kicad_sch")
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 0 -0.2)
@@ -9176,6 +9603,17 @@
 			(uuid "afe9aca9-d7d5-4cf0-aec3-8b1c64d964ce")
 		)
 		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "rp3a0:0603"
 		(layer "F.Cu")
@@ -9256,6 +9694,7 @@
 		(path "/51ea1bac-28fa-448d-8f55-f24879816320/71be2106-f348-5f90-81e6-75693c53aaf6")
 		(sheetname "rp3a-mini-power")
 		(sheetfile "rp3a-mini-power.kicad_sch")
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.325 0.175)
@@ -9372,6 +9811,17 @@
 			(uuid "0a9fb5e0-c9d1-465e-8924-4bfce383e86a")
 		)
 		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "rp3a0:TEST_POINT_1.2MM"
 		(layer "F.Cu")
@@ -9689,6 +10139,7 @@
 		(path "/d54bb2bf-ad4e-490f-a1ed-53bf759a1a14/5040cb8c-159e-5cc8-944a-65bc809025af")
 		(sheetname "rp3a-mini-power")
 		(sheetfile "rp3a-mini-power.kicad_sch")
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 0 0.2)
@@ -9715,6 +10166,17 @@
 			(uuid "6fc16df1-3227-4de3-8e9b-a1b63c5c4c82")
 		)
 		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "rp3a0:0402"
 		(layer "F.Cu")
@@ -9795,6 +10257,7 @@
 		(path "/8d159418-9ddb-427f-990f-de759a75db36/cc83b537-5117-54d6-8259-c4feb253b239")
 		(sheetname "rp3a0-mini-hdmi")
 		(sheetfile "rp3a0-mini-hdmi.kicad_sch")
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 0.9 -0.35)
@@ -9871,6 +10334,17 @@
 			(uuid "a4a0bcd0-8869-4d5b-92fa-1f108ca1a4d4")
 		)
 		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "rp3a0:0402"
 		(layer "F.Cu")
@@ -9951,6 +10425,7 @@
 		(path "/34d85197-d0e7-4304-99a8-b2eb0a5f0503/47bcc607-00ef-596b-8be3-d47908a654e0")
 		(sheetname "rp3a-mini-power")
 		(sheetfile "rp3a-mini-power.kicad_sch")
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.9 0.35)
@@ -10027,6 +10502,17 @@
 			(uuid "3ec99a15-746c-4e0c-a854-c633b6d2a33d")
 		)
 		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "rp3a0:SOT50P162X60-6N"
 		(layer "F.Cu")
@@ -10107,6 +10593,7 @@
 		(path "/96bde071-a0e7-4a45-ba4e-0e33c0e55d6b/f7f99df0-e8f8-5268-b764-67771e63c833")
 		(sheetname "rp3a0-mini-hdmi")
 		(sheetfile "rp3a0-mini-hdmi.kicad_sch")
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 0.63 0.85)
@@ -10371,6 +10858,7 @@
 		(path "/5783be56-b350-4557-8393-f3128fa1c636/77b76dff-322b-543c-b44b-584f8829ef38")
 		(sheetname "rp3a-mini-power")
 		(sheetfile "rp3a-mini-power.kicad_sch")
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.9 -0.35)
@@ -10447,6 +10935,17 @@
 			(uuid "69bed892-295c-49d0-8da8-58fa0be531b2")
 		)
 		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "rp3a0:FIL_EXC24CB102U"
 		(layer "F.Cu")
@@ -10527,6 +11026,7 @@
 		(path "/14619ba9-a6e3-4f6a-aa58-2f72e34a627d/9256d24f-1d5a-5f42-bcbd-caf85496e7a2")
 		(sheetname "rp3a0-mini-hdmi")
 		(sheetfile "rp3a0-mini-hdmi.kicad_sch")
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 0.625 0.87)
@@ -10777,6 +11277,7 @@
 		(path "/4e20c6bc-c3c7-4272-9515-5eb382294b4c/65a895cd-f873-5ae7-9ab8-cdf5449f82a7")
 		(sheetname "rp3a-mini-power")
 		(sheetfile "rp3a-mini-power.kicad_sch")
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 2 2)
@@ -10971,6 +11472,7 @@
 		(path "/be18c1a3-7771-4502-a2b3-599844314a0a/ab38c76d-27ff-53fc-914e-d9215409d93d")
 		(sheetname "rp3a-mini-power")
 		(sheetfile "rp3a-mini-power.kicad_sch")
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 0.9 0.35)
@@ -11047,6 +11549,17 @@
 			(uuid "c1d6b1f8-429b-492a-a878-0fee10c4547f")
 		)
 		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "rp3a0:FIL_EXC24CB102U"
 		(layer "F.Cu")
@@ -11127,6 +11640,7 @@
 		(path "/9fd39621-541b-4265-aefe-2011c91abe24/e1fc7155-2db7-54c4-a5bf-e103217f30e5")
 		(sheetname "rp3a0-mini-hdmi")
 		(sheetfile "rp3a0-mini-hdmi.kicad_sch")
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 0.625 0.87)
@@ -11377,6 +11891,7 @@
 		(path "/e0100d8d-df0a-4dea-b146-46f9f07561fd/c828f98b-cc53-5ea9-848e-8bea3b0fad2a")
 		(sheetname "rp3a-mini-power")
 		(sheetfile "rp3a-mini-power.kicad_sch")
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 0.9 0.35)
@@ -11453,6 +11968,17 @@
 			(uuid "689d8a64-f3cd-4587-b9fb-e4efcd0ffdaf")
 		)
 		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "rp3a0:TEST_POINT_1.2MM"
 		(layer "F.Cu")
@@ -11612,6 +12138,7 @@
 		(path "/3113be8a-eb83-4d97-ad6b-d4e0ebabc028/17ac24f5-173c-52ce-b768-af04ef5874a2")
 		(sheetname "rp3a-mini-power")
 		(sheetfile "rp3a-mini-power.kicad_sch")
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.325 -0.175)
@@ -11728,6 +12255,17 @@
 			(uuid "b915cb4b-079f-4c3f-9706-36834dc273e8")
 		)
 		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "rp3a0:RES-0402-SML"
 		(layer "F.Cu")
@@ -11808,6 +12346,7 @@
 		(path "/8002b77e-e616-4003-8282-0deb2a373193/9ad00892-39c0-560e-9f7a-b26da8ccd4b1")
 		(sheetname "rp3a-mini-power")
 		(sheetfile "rp3a-mini-power.kicad_sch")
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 0 0.2)
@@ -11834,6 +12373,17 @@
 			(uuid "184ea156-69b6-49a4-8523-17e5385f1f03")
 		)
 		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "rp3a0:0603"
 		(layer "F.Cu")
@@ -11914,6 +12464,7 @@
 		(path "/26803fff-4d33-44b0-8a7e-c01d442cf5a7/1be26ccc-bc18-53c4-ab92-b14ce502ff7a")
 		(sheetname "rp3a-mini-power")
 		(sheetfile "rp3a-mini-power.kicad_sch")
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.325 -0.175)
@@ -12030,6 +12581,17 @@
 			(uuid "37431f63-f515-4fd9-83d7-c8ea23d25b04")
 		)
 		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "rp3a0:0402"
 		(layer "F.Cu")
@@ -12110,6 +12672,7 @@
 		(path "/4cc2c291-3abd-44e3-8d90-e463f47c2abb/1f5fc6d8-7d1c-51ae-8a62-d9bbb6d98ca3")
 		(sheetname "rp3a-mini-power")
 		(sheetfile "rp3a-mini-power.kicad_sch")
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 0.9 0.35)
@@ -12186,6 +12749,17 @@
 			(uuid "03d22897-5c57-49fa-899a-e5ae769e7fe0")
 		)
 		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "rp3a0:0402"
 		(layer "F.Cu")
@@ -12266,6 +12840,7 @@
 		(path "/d1e642e2-12e9-441d-b7a8-ac660ff5a3e0/619c4f3e-b0b5-5549-9df0-092d0620aa9d")
 		(sheetname "rp3a-mini-power")
 		(sheetfile "rp3a-mini-power.kicad_sch")
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.9 -0.35)
@@ -12342,6 +12917,17 @@
 			(uuid "7114ae47-7514-4e53-81aa-5a4a98a39e07")
 		)
 		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "rp3a0:0402"
 		(layer "F.Cu")
@@ -12422,6 +13008,7 @@
 		(path "/18a7346e-8184-4357-a256-59e299b023dc/773ec7fa-2ea8-5ca7-b3b8-c00ba0456ef5")
 		(sheetname "rp3a-mini-power")
 		(sheetfile "rp3a-mini-power.kicad_sch")
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 0.9 0.35)
@@ -12498,6 +13085,17 @@
 			(uuid "2731171a-f05f-43b5-b21b-e8b60f92dcf6")
 		)
 		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "rp3a0:DIO_DFLS130LQ-7"
 		(layer "F.Cu")
@@ -12578,6 +13176,7 @@
 		(path "/ad8eb679-91bf-4106-9933-29922de83f60/6f30ef17-7a9a-5a39-a7b8-a33c2f948ce4")
 		(sheetname "rp3a0-mini-hdmi")
 		(sheetfile "rp3a0-mini-hdmi.kicad_sch")
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.4 0.89)
@@ -12772,6 +13371,7 @@
 		(path "/b477f3db-ed31-4687-9549-5840740eaf2e/f09f3289-1b9b-52a1-bc07-11810d334da1")
 		(sheetname "rp3a-mini-power")
 		(sheetfile "rp3a-mini-power.kicad_sch")
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.9 -0.35)
@@ -12848,6 +13448,17 @@
 			(uuid "41c2080e-7a87-4459-b553-633ab14f5c8f")
 		)
 		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "rp3a0:0402"
 		(layer "F.Cu")
@@ -12928,6 +13539,7 @@
 		(path "/3b802d5c-258b-4021-9e76-7f89aa80c72b/fcad01ed-30af-509f-b280-4bb75a87de81")
 		(sheetname "rp3a-mini-power")
 		(sheetfile "rp3a-mini-power.kicad_sch")
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.9 -0.35)
@@ -13004,6 +13616,17 @@
 			(uuid "4b6c1ff4-210d-4002-8d51-1da31f6a819e")
 		)
 		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "rp3a0:TEST_POINT_1.2MM"
 		(layer "F.Cu")
@@ -13242,6 +13865,7 @@
 		(path "/3a4e80fc-3512-415c-a86f-a8c103c93dfe/8a707db9-ba2c-5bde-914a-394ac0615d9a")
 		(sheetname "rp3a-mini-power")
 		(sheetfile "rp3a-mini-power.kicad_sch")
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.9 -0.35)
@@ -13318,6 +13942,17 @@
 			(uuid "f081228e-55ef-44ad-8337-14481244b62e")
 		)
 		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "rp3a0:TEST_POINT_1.2MM"
 		(layer "F.Cu")
@@ -13477,6 +14112,7 @@
 		(path "/187a12bc-04ef-41b8-852e-835e13855a70/0f6f3cbd-bc86-519f-8527-73959fd3491e")
 		(sheetname "rp3a-mini-power")
 		(sheetfile "rp3a-mini-power.kicad_sch")
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 0.7 -1.55)
@@ -13823,6 +14459,7 @@
 		(path "/b2d5c021-6020-47d7-82aa-3045c0e85222/f752e0e5-aa5d-5471-b400-794394a0ad3b")
 		(sheetname "rp3a0-mini-hdmi")
 		(sheetfile "rp3a0-mini-hdmi.kicad_sch")
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 0.625 0.87)
@@ -14073,6 +14710,7 @@
 		(path "/44194f16-11f8-4b35-b452-48e1ccd0b7ca/a183bd04-78e2-55b4-8686-4f42d7dcfbd4")
 		(sheetname "rp3a-mini-power")
 		(sheetfile "rp3a-mini-power.kicad_sch")
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.9 0.35)
@@ -14149,6 +14787,17 @@
 			(uuid "709ff5ab-8fd4-4c3a-8135-b1c0a9eb09aa")
 		)
 		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "rp3a0:TEST_POINT_1.2MM"
 		(layer "F.Cu")
@@ -14308,6 +14957,7 @@
 		(path "/0071cd95-821c-4ae7-adf6-d73a27e82999/1a69bc51-27ed-50e0-b652-d7185f0dd7e0")
 		(sheetname "rp3a0-mini-misc")
 		(sheetfile "rp3a0-mini-misc.kicad_sch")
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 0.9 0.35)
@@ -14384,6 +15034,17 @@
 			(uuid "83b0c087-96db-4731-977b-9c697fa43349")
 		)
 		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "rp3a0:INDC2016X100N"
 		(layer "F.Cu")
@@ -14464,6 +15125,7 @@
 		(path "/9e054fac-f086-439d-a3c8-87abf1ebc69b/ae2ccde4-182c-5d69-b16d-47eacae3d486")
 		(sheetname "rp3a-mini-power")
 		(sheetfile "rp3a-mini-power.kicad_sch")
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 1.07 0.88)
@@ -14600,6 +15262,17 @@
 			(uuid "976da55c-149e-4d07-82e2-d8c5e165d7a6")
 		)
 		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_0805_2012Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "rp3a0:0402"
 		(layer "F.Cu")
@@ -14680,6 +15353,7 @@
 		(path "/721cded9-59ed-4529-a2dd-3830a92bd9db/d3ccc45c-7f2f-57b3-8661-9eaad4a5e37b")
 		(sheetname "rp3a-mini-power")
 		(sheetfile "rp3a-mini-power.kicad_sch")
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.9 -0.35)
@@ -14756,6 +15430,17 @@
 			(uuid "00add917-191c-4e12-b3ff-6943b5859cbe")
 		)
 		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "rp3a0:0603"
 		(layer "F.Cu")
@@ -14836,6 +15521,7 @@
 		(path "/ec3c901d-b535-45a9-8fe5-a6acd268805d/2eecbdb3-7e8f-5032-bd95-fd942587ea95")
 		(sheetname "rp3a-mini-power")
 		(sheetfile "rp3a-mini-power.kicad_sch")
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.325 -0.17501)
@@ -14952,6 +15638,17 @@
 			(uuid "b6770862-e954-4e97-9584-dad7f0a8604b")
 		)
 		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "rp3a0:0402"
 		(layer "F.Cu")
@@ -15032,6 +15729,7 @@
 		(path "/17c94e25-74d6-4b98-9a0b-1a7170e3a6a0/014b3748-f3ea-508a-8e37-65fc20e5862b")
 		(sheetname "rp3a0-mini-hdmi")
 		(sheetfile "rp3a0-mini-hdmi.kicad_sch")
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 0.9 0.35)
@@ -15108,6 +15806,17 @@
 			(uuid "dc774ad9-6231-417d-9dcd-7b1010f70af8")
 		)
 		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "rp3a0:0402"
 		(layer "F.Cu")
@@ -15188,6 +15897,7 @@
 		(path "/a74de208-5dd4-438f-8f8c-cbc1c85a3c02/2da6689d-d1f4-5520-aae2-8876574979e6")
 		(sheetname "rp3a-mini-power")
 		(sheetfile "rp3a-mini-power.kicad_sch")
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 0.9 0.35)
@@ -15264,6 +15974,17 @@
 			(uuid "a51d23aa-e8ab-402d-ae07-4f7260820831")
 		)
 		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "rp3a0:0402"
 		(layer "F.Cu")
@@ -15344,6 +16065,7 @@
 		(path "/7dbfa598-9169-4d04-bee0-e4f03068b086/0ad06184-68e4-5f3c-b08d-d705847dd199")
 		(sheetname "rp3a-mini-power")
 		(sheetfile "rp3a-mini-power.kicad_sch")
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.9 -0.35)
@@ -15420,6 +16142,17 @@
 			(uuid "f7293273-e3b6-4187-a7d2-3981cf0d0008")
 		)
 		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "rp3a0:LED_0603"
 		(layer "F.Cu")
@@ -15500,6 +16233,7 @@
 		(path "/d3d88ae4-2bfb-4c65-845e-0d885496d2fa/d1ab0e0a-ed46-558f-be1e-ce21d4176140")
 		(sheetname "rp3a0-mini-misc")
 		(sheetfile "rp3a0-mini-misc.kicad_sch")
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.397 0.635)
@@ -15626,6 +16360,17 @@
 			(uuid "a6e92f5e-5bde-41fb-b55d-fe140ffb12e8")
 		)
 		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_0603_1608Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "rp3a0:TEST_POINT_1.2MM"
 		(layer "F.Cu")
@@ -15785,6 +16530,7 @@
 		(path "/7a5a95ce-a9aa-4490-8a74-f9d08df8a53e/4f7915d0-c4d3-51e3-b09a-faa9f21a9c11")
 		(sheetname "rp3a-mini-power")
 		(sheetfile "rp3a-mini-power.kicad_sch")
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 0.9 0.35)
@@ -15861,6 +16607,17 @@
 			(uuid "7757859c-f589-464d-b3f0-100073258baa")
 		)
 		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "rp3a0:0603"
 		(layer "F.Cu")
@@ -15941,6 +16698,7 @@
 		(path "/247ccef4-6254-4cfc-8f09-d63c7a9277c7/13633adc-f19e-5dd5-b7f8-716c57ac8054")
 		(sheetname "rp3a-mini-power")
 		(sheetfile "rp3a-mini-power.kicad_sch")
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.325 -0.175)
@@ -16057,6 +16815,17 @@
 			(uuid "ec1033f4-378e-4ef8-8cbb-94f60debea24")
 		)
 		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "rp3a0:RES-0402-SML"
 		(layer "F.Cu")
@@ -16137,6 +16906,7 @@
 		(path "/79c53974-ee23-45e3-957d-c2908f46f1c3/fd5c0f94-cb32-55a7-ac56-396ec218389c")
 		(sheetname "rp3a-mini-power")
 		(sheetfile "rp3a-mini-power.kicad_sch")
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 0 0.2)
@@ -16163,6 +16933,17 @@
 			(uuid "3f888edb-5125-4852-9295-043a4f5c316f")
 		)
 		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "rp3a0:MOLEX_467652301"
 		(locked yes)
@@ -16244,6 +17025,7 @@
 		(path "/ce3db72f-bde3-40ec-bc0e-ea33c82e1634/a149ec88-6bfa-562c-9a81-c76172f5d629")
 		(sheetname "rp3a0-mini-hdmi")
 		(sheetfile "rp3a0-mini-hdmi.kicad_sch")
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 1.8 -8.1)
@@ -16808,6 +17590,7 @@
 		(path "/cc7659b4-7f8b-446d-9958-f208cdbb0b33/98ac2397-e958-5ac7-ac11-704f8d214e7d")
 		(sheetname "rp3a0-mini-wireless-sd")
 		(sheetfile "rp3a0-mini-wireless-sd.kicad_sch")
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 0 -0.2)
@@ -16834,6 +17617,17 @@
 			(uuid "75c5ac75-be14-41ad-afb5-17ef3d6ffe10")
 		)
 		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "rp3a0:0402"
 		(layer "F.Cu")
@@ -16914,6 +17708,7 @@
 		(path "/d4af97e6-b51e-479d-bdf8-dc33215dfeda/998e19af-704c-5c00-8fc1-c816862d746b")
 		(sheetname "rp3a0-mini-gpio")
 		(sheetfile "rp3a0-mini-gpio.kicad_sch")
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 0.9 -0.35)
@@ -16990,6 +17785,17 @@
 			(uuid "6f1ad907-52c8-4409-93bd-689832701f2d")
 		)
 		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "rp3a0:0402"
 		(layer "F.Cu")
@@ -17070,6 +17876,7 @@
 		(path "/764ade95-5bac-4a3f-89f2-150f28bfec12/51963ded-608f-57ee-881f-86cb11785fe9")
 		(sheetname "rp3a-mini-power")
 		(sheetfile "rp3a-mini-power.kicad_sch")
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.9 -0.35)
@@ -17146,6 +17953,17 @@
 			(uuid "90fbb72e-fc36-4d1c-94f9-0509c85e21a3")
 		)
 		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "rp3a0:RP3A0-BGA"
 		(locked yes)
@@ -19932,6 +20750,7 @@
 		(path "/a2132e01-ee5f-4f0f-89b7-6c30edd63be5/1fbdd480-693c-5819-8042-14ed96e86b5c")
 		(sheetname "rp3a-mini-power")
 		(sheetfile "rp3a-mini-power.kicad_sch")
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.9 -0.35)
@@ -20008,6 +20827,17 @@
 			(uuid "742fdf7c-44b2-40b1-b4ba-1c52ab91a867")
 		)
 		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "rp3a0:RES-0402-SML"
 		(layer "F.Cu")
@@ -20088,6 +20918,7 @@
 		(path "/b4217209-2d2e-4efb-998b-bf49076c07d2/8ac1641f-0780-5c5c-bf57-67df21ec5e29")
 		(sheetname "rp3a0-mini-misc")
 		(sheetfile "rp3a0-mini-misc.kicad_sch")
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 0 -0.2)
@@ -20114,6 +20945,17 @@
 			(uuid "eae1a2df-1db9-4a2c-a697-4bb714562c73")
 		)
 		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "rp3a0:TEST_POINT_1.2MM"
 		(layer "F.Cu")
@@ -20273,6 +21115,7 @@
 		(path "/814a1c34-d962-45d8-aa58-389abc0445b0/0232a576-9341-5cb8-84c6-2ae4eaa29c70")
 		(sheetname "rp3a0-mini-wireless-sd")
 		(sheetfile "rp3a0-mini-wireless-sd.kicad_sch")
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 0 -0.2)
@@ -20299,6 +21142,17 @@
 			(uuid "c6faba69-8a8d-4eda-8f31-6574281a42e8")
 		)
 		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "rp3a0:0402"
 		(layer "F.Cu")
@@ -20379,6 +21233,7 @@
 		(path "/26c11098-fddc-49e6-ae36-2634e5e5ac94/4ff6878f-dcff-5140-a370-044817456ff3")
 		(sheetname "rp3a-mini-power")
 		(sheetfile "rp3a-mini-power.kicad_sch")
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.9 0.34999)
@@ -20455,6 +21310,17 @@
 			(uuid "91f3f0dc-27da-4580-bda1-fb8ffa9b4361")
 		)
 		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "rp3a0:XTAL_ECS-192-18-33-JGN-TR"
 		(layer "F.Cu")
@@ -20535,6 +21401,7 @@
 		(path "/8e19b016-fc78-4fd1-9c68-3b9667c013ab/27307fcb-a1ad-5f94-8a8b-e0f8dec3d801")
 		(sheetname "rp3a-mini-power")
 		(sheetfile "rp3a-mini-power.kicad_sch")
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.27 -1.25)
@@ -20785,6 +21652,7 @@
 		(path "/6daeac59-bdce-4761-a8a2-973978df8a5a/f48eb4da-14aa-5001-92c8-e7074feb48a5")
 		(sheetname "rp3a-mini-power")
 		(sheetfile "rp3a-mini-power.kicad_sch")
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 0 -0.2)
@@ -20811,6 +21679,17 @@
 			(uuid "52bf6788-fae8-499c-b6c0-e9b422671d11")
 		)
 		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "rp3a0:0402"
 		(layer "F.Cu")
@@ -20891,6 +21770,7 @@
 		(path "/9872e0b6-a885-41de-a2c3-07fc2526dfde/4504a1d1-2000-5baf-8fb0-c926fbd5580e")
 		(sheetname "rp3a-mini-power")
 		(sheetfile "rp3a-mini-power.kicad_sch")
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.9 -0.35)
@@ -20967,6 +21847,17 @@
 			(uuid "042bc0ac-5785-41e4-a63e-f9de31923b13")
 		)
 		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "rp3a0:0402"
 		(layer "F.Cu")
@@ -21047,6 +21938,7 @@
 		(path "/9d04dadf-8c83-4a7d-8a45-6a9c836d50f3/ce217298-1003-5fb3-9889-8f0310ad9122")
 		(sheetname "rp3a-mini-power")
 		(sheetfile "rp3a-mini-power.kicad_sch")
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.9 -0.35)
@@ -21123,6 +22015,17 @@
 			(uuid "b16532a0-29c2-4555-85ec-9d5e79278257")
 		)
 		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "rp3a0:0402"
 		(layer "F.Cu")
@@ -21203,6 +22106,7 @@
 		(path "/36dad584-6267-404a-89d9-38229c6dc428/d88c18c1-d11d-5417-9c22-62cc15b85ed7")
 		(sheetname "rp3a-mini-power")
 		(sheetfile "rp3a-mini-power.kicad_sch")
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.9 -0.35)
@@ -21279,6 +22183,17 @@
 			(uuid "7380239c-efb3-4409-a04b-fa6ab909060c")
 		)
 		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "rp3a0:TEST_POINT_1.2MM"
 		(layer "F.Cu")
@@ -21438,6 +22353,7 @@
 		(path "/154b0bc6-eb73-410b-b815-8d3b7a42a25e/99094227-4474-5be2-833d-7771f1fa5679")
 		(sheetname "rp3a-mini-power")
 		(sheetfile "rp3a-mini-power.kicad_sch")
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 0.325 0.175)
@@ -21554,6 +22470,17 @@
 			(uuid "81bea636-0a6c-4a0a-adc1-aff8d16d786b")
 		)
 		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "rp3a0:0402"
 		(layer "F.Cu")
@@ -21634,6 +22561,7 @@
 		(path "/5f28035b-468f-4f28-a0fc-4197e84ccea3/ab4bfc4e-19b8-5a8b-9b74-8bb58d4cecdd")
 		(sheetname "rp3a0-mini-misc")
 		(sheetfile "rp3a0-mini-misc.kicad_sch")
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.9 -0.35)
@@ -21710,6 +22638,17 @@
 			(uuid "78a63fbf-c095-4c4e-b625-4879e47a5548")
 		)
 		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "rp3a0:0402"
 		(layer "F.Cu")
@@ -21790,6 +22729,7 @@
 		(path "/84b5faf0-d429-44a9-a5c3-724c1f3fff7c/43b704ee-4dfb-50a8-be3b-6d2a5365b188")
 		(sheetname "rp3a-mini-power")
 		(sheetfile "rp3a-mini-power.kicad_sch")
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.9 -0.35)
@@ -21866,6 +22806,17 @@
 			(uuid "29f76ce2-b6a6-47be-af3b-8de7431a64f4")
 		)
 		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "rp3a0:TEST_POINT_1.2MM"
 		(layer "B.Cu")
@@ -24674,14 +25625,6 @@
 		(uuid "03bbfbb1-47f0-42eb-84ce-44300a3311f3")
 	)
 	(segment
-		(start 144.1511 100.1286)
-		(end 144.1511 100.1286)
-		(width 0.15)
-		(layer "F.Cu")
-		(net "GND")
-		(uuid "066689d4-9ebf-4d28-be8c-a63a10226230")
-	)
-	(segment
 		(start 137.95548 98.46622)
 		(end 137.95548 97.59099)
 		(width 0.15)
@@ -24874,14 +25817,6 @@
 		(uuid "2c519597-e7aa-48da-ba31-671833c07af9")
 	)
 	(segment
-		(start 142.5511 100.12859)
-		(end 142.55111 100.1286)
-		(width 0.15)
-		(layer "F.Cu")
-		(net "GND")
-		(uuid "2d650fa9-9ea9-4088-9244-fd6a001a1c5f")
-	)
-	(segment
 		(start 156.5511 103.0786)
 		(end 156.60669 103.02301)
 		(width 0.15)
@@ -24896,14 +25831,6 @@
 		(layer "F.Cu")
 		(net "GND")
 		(uuid "2e817645-b979-4470-8e48-22cf16876c98")
-	)
-	(segment
-		(start 158.3511 104.3786)
-		(end 158.3511 104.3786)
-		(width 0.15)
-		(layer "F.Cu")
-		(net "GND")
-		(uuid "31a35677-0c6a-4901-88ff-0c6688c94f70")
 	)
 	(segment
 		(start 140.40109 98.82859)
@@ -25368,14 +26295,6 @@
 		(layer "F.Cu")
 		(net "GND")
 		(uuid "7db2adf5-fe4f-4e13-8d1a-8004016e940b")
-	)
-	(segment
-		(start 143.8511 100.12859)
-		(end 143.85111 100.1286)
-		(width 0.15)
-		(layer "F.Cu")
-		(net "GND")
-		(uuid "7ed94252-6731-4001-9272-717758442fcf")
 	)
 	(segment
 		(start 172.07536 100.32934)
@@ -26128,14 +27047,6 @@
 		(layer "F.Cu")
 		(net "GND")
 		(uuid "f80f48ed-02f7-4507-b69c-abecfd6a6829")
-	)
-	(segment
-		(start 143.85109 100.1286)
-		(end 143.8511 100.12859)
-		(width 0.15)
-		(layer "F.Cu")
-		(net "GND")
-		(uuid "f942d359-501a-46bd-9a37-71241fe0f944")
 	)
 	(segment
 		(start 142.5511 111.82861)
@@ -28015,14 +28926,6 @@
 		(uuid "66063306-583b-47aa-ae47-9670d89368de")
 	)
 	(segment
-		(start 166.1161 96.9136)
-		(end 166.11626 96.9136)
-		(width 0.1)
-		(layer "In3.Cu")
-		(net "/GPIO/ID_SD")
-		(uuid "6c8a0456-c4bb-4e94-91cd-75a97ca8e742")
-	)
-	(segment
 		(start 154.05891 104.19249)
 		(end 157.39329 104.19249)
 		(width 0.1)
@@ -28109,14 +29012,6 @@
 		(layer "In3.Cu")
 		(net "/GPIO/ID_SD")
 		(uuid "d55459f2-10ab-4d4b-922a-d44b2bbfd36f")
-	)
-	(segment
-		(start 166.5761 96.45376)
-		(end 166.5761 96.4536)
-		(width 0.1)
-		(layer "In3.Cu")
-		(net "/GPIO/ID_SD")
-		(uuid "ec2d9b95-15fd-4212-9b87-80bdf85bca75")
 	)
 	(segment
 		(start 161.1511 100.14268)
@@ -28715,14 +29610,6 @@
 		(uuid "5610b6e6-47ac-44c5-9c80-7495f2cdc033")
 	)
 	(segment
-		(start 153.87282 103.8008)
-		(end 153.87282 103.8008)
-		(width 0.1)
-		(layer "In3.Cu")
-		(net "/GPIO/GPIO3")
-		(uuid "f01e258e-a0f9-46d0-a050-585ec8ac7dbc")
-	)
-	(segment
 		(start 158.465 102.34457)
 		(end 158.58344 102.22613)
 		(width 0.1)
@@ -28777,22 +29664,6 @@
 		(layer "F.Cu")
 		(net "/GPIO/GPIO4")
 		(uuid "8d51eda9-d9e2-491c-a876-bc8f44c4f747")
-	)
-	(segment
-		(start 153.85054 104.4286)
-		(end 153.8511 104.4286)
-		(width 0.1)
-		(layer "F.Cu")
-		(net "/GPIO/GPIO4")
-		(uuid "93dcf95d-cfdc-45e1-b304-be2d16462f4d")
-	)
-	(segment
-		(start 153.60112 104.6786)
-		(end 153.60112 104.67802)
-		(width 0.1)
-		(layer "F.Cu")
-		(net "/GPIO/GPIO4")
-		(uuid "cb250c94-1abd-453c-9892-f063e8744496")
 	)
 	(via
 		(at 153.8511 104.4286)
@@ -29683,14 +30554,6 @@
 		(uuid "fa7159c8-87bc-4d6b-a6b1-52c767ce0f76")
 	)
 	(segment
-		(start 152.95112 105.9786)
-		(end 152.95112 105.97858)
-		(width 0.1)
-		(layer "F.Cu")
-		(net "/GPIO/GPIO9")
-		(uuid "49a69b2d-f5e1-4012-ac5b-df3ef8d18785")
-	)
-	(segment
 		(start 152.95112 105.97858)
 		(end 153.2011 105.7286)
 		(width 0.1)
@@ -29913,14 +30776,6 @@
 		(layer "In4.Cu")
 		(net "/GPIO/GPIO9")
 		(uuid "fb2a60d1-a5dc-493f-af91-110782befdc3")
-	)
-	(segment
-		(start 153.3011 108.92859)
-		(end 153.3011 108.92859)
-		(width 0.1)
-		(layer "F.Cu")
-		(net "/GPIO/GPIO10")
-		(uuid "5a2b440e-62c3-4771-9005-cb790e0dad17")
 	)
 	(segment
 		(start 153.3011 108.92859)
@@ -30335,14 +31190,6 @@
 		(uuid "9384e430-b752-4371-95ef-26d1154aeb4b")
 	)
 	(segment
-		(start 146.54502 98.0786)
-		(end 146.5452 98.0786)
-		(width 0.1)
-		(layer "In3.Cu")
-		(net "/GPIO/GPIO11")
-		(uuid "9bab85f0-c8ab-490b-b405-37d7e1dce84b")
-	)
-	(segment
 		(start 153.76399 106.8286)
 		(end 153.8011 106.8286)
 		(width 0.1)
@@ -30389,14 +31236,6 @@
 		(layer "In4.Cu")
 		(net "/GPIO/GPIO11")
 		(uuid "76183981-4444-4433-84b9-f0df8d923951")
-	)
-	(segment
-		(start 150.04438 107.62796)
-		(end 150.04438 107.62796)
-		(width 0.1)
-		(layer "In4.Cu")
-		(net "/GPIO/GPIO11")
-		(uuid "8625c042-92c6-48b0-999d-3bb267525655")
 	)
 	(segment
 		(start 147.2372 98.97961)
@@ -30651,14 +31490,6 @@
 		(uuid "ec26272e-d78d-4cf6-ab53-03c5abdb1af1")
 	)
 	(segment
-		(start 149.73225 107.75107)
-		(end 149.73226 107.75108)
-		(width 0.1)
-		(layer "In3.Cu")
-		(net "/GPIO/GPIO12")
-		(uuid "f68a4102-585b-4114-b40d-29d826c502cf")
-	)
-	(segment
 		(start 153.12851 107.3147)
 		(end 153.5872 107.3147)
 		(width 0.1)
@@ -30681,14 +31512,6 @@
 		(layer "In4.Cu")
 		(net "/GPIO/GPIO12")
 		(uuid "0319b332-5ec3-457b-bb65-b23dacc2bdd5")
-	)
-	(segment
-		(start 147.0378 99.01941)
-		(end 147.03781 99.01942)
-		(width 0.1)
-		(layer "In4.Cu")
-		(net "/GPIO/GPIO12")
-		(uuid "14af3220-ac10-42b2-8575-0cc5b8974719")
 	)
 	(segment
 		(start 149.30977 107.10777)
@@ -30737,14 +31560,6 @@
 		(layer "In4.Cu")
 		(net "/GPIO/GPIO12")
 		(uuid "7ce40b76-5a1e-4fda-bd50-ae3fc5a2f3f7")
-	)
-	(segment
-		(start 147.0483 99.05786)
-		(end 147.0483 99.05785)
-		(width 0.1)
-		(layer "In4.Cu")
-		(net "/GPIO/GPIO12")
-		(uuid "9f324d7e-2176-44cd-88d6-4650a9193e86")
 	)
 	(segment
 		(start 147.03781 99.04398)
@@ -31105,14 +31920,6 @@
 		(layer "F.Cu")
 		(net "/GPIO/GPIO14")
 		(uuid "4206d402-7405-4727-b433-1fcee4bf8c09")
-	)
-	(segment
-		(start 152.67774 108.90663)
-		(end 152.67774 108.90662)
-		(width 0.1)
-		(layer "F.Cu")
-		(net "/GPIO/GPIO14")
-		(uuid "9ad9c1ed-4f2a-401b-b529-e300223c7129")
 	)
 	(segment
 		(start 152.88097 109.11786)
@@ -31497,14 +32304,6 @@
 		(layer "In3.Cu")
 		(net "/GPIO/GPIO15")
 		(uuid "4d076016-fcd9-4b01-8d26-bc093fd2f7e4")
-	)
-	(segment
-		(start 148.68328 106.94908)
-		(end 148.68328 106.94908)
-		(width 0.1)
-		(layer "In3.Cu")
-		(net "/GPIO/GPIO15")
-		(uuid "4efc8975-c595-447e-8e59-97388f9a3e3f")
 	)
 	(segment
 		(start 153.04237 106.5175)
@@ -32097,14 +32896,6 @@
 		(layer "F.Cu")
 		(net "/GPIO/GPIO18")
 		(uuid "b7e2e225-62ff-4c91-80a1-68a085dbb875")
-	)
-	(segment
-		(start 152.30111 107.2786)
-		(end 152.30112 107.2786)
-		(width 0.1)
-		(layer "F.Cu")
-		(net "/GPIO/GPIO18")
-		(uuid "fdfeb3c9-7be9-462f-b6ec-213e01d51d8b")
 	)
 	(via
 		(at 151.2594 112.248)
@@ -33058,22 +33849,6 @@
 		(net "/GPIO/GPIO24")
 		(uuid "88bdbef3-65ac-49aa-8292-0195dcdc0a9e")
 	)
-	(segment
-		(start 152.54255 110.77005)
-		(end 152.54255 110.77004)
-		(width 0.1)
-		(layer "F.Cu")
-		(net "/GPIO/GPIO24")
-		(uuid "ccc58472-f7f7-44e0-8991-3af8bc0b3fa0")
-	)
-	(segment
-		(start 152.30112 110.52861)
-		(end 152.30112 110.52861)
-		(width 0.1)
-		(layer "F.Cu")
-		(net "/GPIO/GPIO24")
-		(uuid "d58b5224-e17f-4112-bf15-be4dee54da19")
-	)
 	(via
 		(at 152.54255 110.77005)
 		(size 0.35)
@@ -33213,14 +33988,6 @@
 		(layer "F.Cu")
 		(net "/GPIO/GPIO25")
 		(uuid "9ca2c2c0-f1e1-423c-a7be-75e2ccfe795a")
-	)
-	(segment
-		(start 151.72527 110.64336)
-		(end 151.72527 110.64335)
-		(width 0.1)
-		(layer "F.Cu")
-		(net "/GPIO/GPIO25")
-		(uuid "9d9d2b14-fb72-4835-8df1-df5a9352585d")
 	)
 	(segment
 		(start 151.85003 110.76812)
@@ -33371,14 +34138,6 @@
 		(uuid "13d752cd-105c-4ae7-87db-57eff6bf096e")
 	)
 	(segment
-		(start 134.1161 105.2786)
-		(end 134.1161 105.2786)
-		(width 0.15)
-		(layer "F.Cu")
-		(net "3V3")
-		(uuid "17bdbbd8-baf8-4d32-adc7-9d4a7daa2f32")
-	)
-	(segment
 		(start 137.5181 108.7036)
 		(end 137.6931 108.5286)
 		(width 0.15)
@@ -33393,14 +34152,6 @@
 		(layer "F.Cu")
 		(net "3V3")
 		(uuid "1d52b5b2-0b7c-448f-876b-47bb2df4d7ac")
-	)
-	(segment
-		(start 158.9011 98.3286)
-		(end 158.9011 98.3286)
-		(width 0.15)
-		(layer "F.Cu")
-		(net "3V3")
-		(uuid "1e0af5bf-468a-4f6a-af01-af136de39c43")
 	)
 	(segment
 		(start 150.62708 109.74601)
@@ -35435,14 +36186,6 @@
 		(uuid "b99909b4-fdf3-40c8-b451-dfe93841f916")
 	)
 	(segment
-		(start 160.1011 97.7286)
-		(end 160.1011 97.7286)
-		(width 0.15)
-		(layer "F.Cu")
-		(net "Net-(R6-Pad1)")
-		(uuid "2ab86640-03d4-403f-ae78-efab23614342")
-	)
-	(segment
 		(start 160.9011 97.7286)
 		(end 161.7011 97.7286)
 		(width 0.15)
@@ -36051,14 +36794,6 @@
 		(uuid "63864ef6-13bb-4ab3-8f84-4609df568a2a")
 	)
 	(segment
-		(start 170.80123 96.9286)
-		(end 170.80148 96.92835)
-		(width 0.15)
-		(layer "F.Cu")
-		(net "HDMI_5V")
-		(uuid "66ede063-ca56-4d6d-a6b9-3c287745e303")
-	)
-	(segment
 		(start 170.0011 96.9286)
 		(end 170.80123 96.9286)
 		(width 0.15)
@@ -36397,14 +37132,6 @@
 		(layer "F.Cu")
 		(net "5V_CORE")
 		(uuid "ed60976d-e78c-4ef0-8b58-7db0fee61ebd")
-	)
-	(segment
-		(start 160.2011 105.3286)
-		(end 160.2011 105.3286)
-		(width 0.15)
-		(layer "F.Cu")
-		(net "5V_CORE")
-		(uuid "efad332d-42cc-4c1b-93fb-28c04710ee2c")
 	)
 	(segment
 		(start 160.31397 105.41573)
@@ -36749,14 +37476,6 @@
 		(layer "F.Cu")
 		(net "VDD_CORE")
 		(uuid "d488624a-7bb2-4fe8-bc87-e6855233bfa3")
-	)
-	(segment
-		(start 158.7011 103.4286)
-		(end 158.7011 103.4286)
-		(width 0.15)
-		(layer "F.Cu")
-		(net "VDD_CORE")
-		(uuid "ff8f2486-e5b8-49f9-9061-30a74839c87f")
 	)
 	(via
 		(at 158.1511 108.5786)
@@ -37181,14 +37900,6 @@
 		(layer "B.Cu")
 		(net "/Wireless_SD/WLAN_CLK")
 		(uuid "b0a0ceed-917b-4be5-9c5a-d97f53652919")
-	)
-	(segment
-		(start 136.6011 113.6286)
-		(end 136.60178 113.62792)
-		(width 0.1)
-		(layer "B.Cu")
-		(net "/Wireless_SD/WLAN_CLK")
-		(uuid "c70dc6de-c6c0-455e-96eb-46692ca76b8d")
 	)
 	(segment
 		(start 122.64972 112.67722)
@@ -37773,14 +38484,6 @@
 		(layer "F.Cu")
 		(net "Net-(U4-EN2)")
 		(uuid "1906cf28-7ac9-467d-a7ce-3043bbe6820c")
-	)
-	(segment
-		(start 167.5011 104.3286)
-		(end 167.5011 104.3286)
-		(width 0.15)
-		(layer "F.Cu")
-		(net "Net-(U4-EN2)")
-		(uuid "403f4b87-44fa-4a8a-b4d7-306bb9fb0539")
 	)
 	(segment
 		(start 167.2011 104.3036)
@@ -38667,14 +39370,6 @@
 		(uuid "6ebe1135-028f-41e2-9dd9-6337ecdcf63c")
 	)
 	(segment
-		(start 151.65111 102.07861)
-		(end 151.65111 102.07859)
-		(width 0.15)
-		(layer "F.Cu")
-		(net "/Wireless_SD/SD_DAT1")
-		(uuid "be546d9e-cd51-40dd-90a7-16609238c795")
-	)
-	(segment
 		(start 135.6011 101.6286)
 		(end 135.9011 101.6286)
 		(width 0.15)
@@ -39363,14 +40058,6 @@
 		(uuid "30a75ff2-8593-4159-b24c-9c5f58c22f3a")
 	)
 	(segment
-		(start 150.6511 99.1786)
-		(end 150.6511 99.1786)
-		(width 0.15)
-		(layer "F.Cu")
-		(net "Net-(U1G-UNKNOWN_8)")
-		(uuid "7626d1e0-003d-4569-9876-5f9377fd2346")
-	)
-	(segment
 		(start 150.35111 99.47859)
 		(end 150.6511 99.1786)
 		(width 0.15)
@@ -39539,14 +40226,6 @@
 		(uuid "351a6252-59b1-4906-a17b-b7c5353eba3d")
 	)
 	(segment
-		(start 151.38942 111.84436)
-		(end 151.38942 111.84435)
-		(width 0.1)
-		(layer "B.Cu")
-		(net "Net-(U1E-CAM_SDA)")
-		(uuid "41ad9a14-9355-4d02-981d-55238fc338da")
-	)
-	(segment
 		(start 153.14873 112.0286)
 		(end 153.40475 111.77258)
 		(width 0.1)
@@ -39633,14 +40312,6 @@
 		(layer "B.Cu")
 		(net "Net-(U1E-CAM_SDA)")
 		(uuid "f60b2bdf-1ed0-485f-aa44-141a0a149926")
-	)
-	(segment
-		(start 150.59676 111.31174)
-		(end 150.59676 111.31173)
-		(width 0.1)
-		(layer "B.Cu")
-		(net "Net-(U1E-CAM_SDA)")
-		(uuid "fad9edb4-983e-4421-979d-81879358bbe7")
 	)
 	(segment
 		(start 169.1011 107.4286)
@@ -40207,14 +40878,6 @@
 		(uuid "c196701d-419d-43da-b51f-5c31d151ba98")
 	)
 	(segment
-		(start 170.4706 110.4786)
-		(end 170.4706 110.4786)
-		(width 0.15)
-		(layer "B.Cu")
-		(net "/HDMI_USB/USB_DP")
-		(uuid "c6f20b38-7d65-4dd6-a8d0-243ef2086e15")
-	)
-	(segment
 		(start 147.15209 99.77943)
 		(end 148.55125 101.1786)
 		(width 0.15)
@@ -40263,14 +40926,6 @@
 		(uuid "187685a5-422e-40a3-8018-9bbf47e88fdc")
 	)
 	(segment
-		(start 171.0486 109.4286)
-		(end 171.0486 109.4286)
-		(width 0.15)
-		(layer "F.Cu")
-		(net "/HDMI_USB/USB_DN")
-		(uuid "577a9152-6221-4a04-9e69-4b90bca8bf7f")
-	)
-	(segment
 		(start 142.20304 99.17666)
 		(end 142.20304 99.13053)
 		(width 0.15)
@@ -40293,14 +40948,6 @@
 		(layer "F.Cu")
 		(net "/HDMI_USB/USB_DN")
 		(uuid "866021b5-ab16-4065-a45a-2604046b89a3")
-	)
-	(segment
-		(start 170.4186 109.4286)
-		(end 170.4186 109.4286)
-		(width 0.15)
-		(layer "F.Cu")
-		(net "/HDMI_USB/USB_DN")
-		(uuid "b998baa2-0984-4d28-80b0-05047ce303a7")
 	)
 	(segment
 		(start 171.74605 110.23641)
@@ -40589,14 +41236,6 @@
 		(layer "In2.Cu")
 		(net "Net-(J3-CC2)")
 		(uuid "443b1f28-4d1e-4c17-b626-717b7d12ddcd")
-	)
-	(segment
-		(start 170.4686 110.0286)
-		(end 170.4686 110.0286)
-		(width 0.15)
-		(layer "In2.Cu")
-		(net "Net-(J3-CC2)")
-		(uuid "8eaf23f3-0bfb-4a12-917e-872c04837b31")
 	)
 	(segment
 		(start 172.34787 109.1786)
@@ -41247,14 +41886,6 @@
 		(uuid "3eb9797d-c7fa-4d5e-b652-89749e023e1f")
 	)
 	(segment
-		(start 133.53662 109.76412)
-		(end 133.5371 109.76412)
-		(width 0.1)
-		(layer "In4.Cu")
-		(net "/Wireless_SD/BT_UART_RTS")
-		(uuid "804d0803-a8e8-49c3-9e01-45ccd1c30219")
-	)
-	(segment
 		(start 132.2011 108.4286)
 		(end 132.2011 100.94017)
 		(width 0.1)
@@ -41301,14 +41932,6 @@
 		(layer "F.Cu")
 		(net "/HDMI_USB/HDMI_CEC")
 		(uuid "8e347b24-b481-4826-82e0-dec0abd05623")
-	)
-	(segment
-		(start 167.4961 97.5286)
-		(end 167.4961 97.5286)
-		(width 0.1)
-		(layer "F.Cu")
-		(net "/HDMI_USB/HDMI_CEC")
-		(uuid "97bb17b9-65b0-4854-b1c0-5f93c0ceda34")
 	)
 	(segment
 		(start 171.265 102.7647)
@@ -41511,14 +42134,6 @@
 		(uuid "fb759ec8-53b6-48d8-bb5b-5134bfe3edf7")
 	)
 	(segment
-		(start 148.09917 99.13053)
-		(end 148.09918 99.13053)
-		(width 0.15)
-		(layer "F.Cu")
-		(net "Net-(U1E-HDMI_T2P)")
-		(uuid "30f137b4-5bf5-4155-a5d7-dc934717119b")
-	)
-	(segment
 		(start 147.75111 99.47859)
 		(end 148.09917 99.13053)
 		(width 0.15)
@@ -41557,14 +42172,6 @@
 		(layer "B.Cu")
 		(net "Net-(U1E-HDMI_T2P)")
 		(uuid "3b329b39-3276-44e8-9c27-dc9a75e3dc2b")
-	)
-	(segment
-		(start 147.5011 98.09076)
-		(end 147.5011 98.09075)
-		(width 0.15)
-		(layer "B.Cu")
-		(net "Net-(U1E-HDMI_T2P)")
-		(uuid "5609ff67-c824-444d-8b64-60b0eff80c69")
 	)
 	(segment
 		(start 168.18895 98.3786)
@@ -41797,14 +42404,6 @@
 		(layer "F.Cu")
 		(net "/Power/RUN")
 		(uuid "a0ef2fbb-4bc3-41ce-9c3e-a12bc4b0767c")
-	)
-	(segment
-		(start 140.3011 108.92861)
-		(end 140.3011 108.9286)
-		(width 0.1)
-		(layer "F.Cu")
-		(net "/Power/RUN")
-		(uuid "cd36db82-6076-481d-a68a-0c327ccfaf0d")
 	)
 	(via
 		(at 162.05387 96.7369)
@@ -42254,14 +42853,6 @@
 		(net "Net-(U1E-HDMI_CKN)")
 		(uuid "64d03ea1-a2f3-4982-a679-a3f424523fb4")
 	)
-	(segment
-		(start 150.0011 99.1286)
-		(end 150.0011 99.12857)
-		(width 0.15)
-		(layer "F.Cu")
-		(net "Net-(U1E-HDMI_CKN)")
-		(uuid "f59d461d-9edb-47b5-9061-56751ef0ae41")
-	)
 	(via
 		(at 150.0011 99.1286)
 		(size 0.35)
@@ -42397,14 +42988,6 @@
 		(layer "F.Cu")
 		(net "/Wireless_SD/WLAN_DAT3")
 		(uuid "e50a4a46-993d-4d79-961d-1006102fdbd4")
-	)
-	(segment
-		(start 147.75111 111.82861)
-		(end 147.75111 111.82861)
-		(width 0.1)
-		(layer "F.Cu")
-		(net "/Wireless_SD/WLAN_DAT3")
-		(uuid "efcffe21-e359-4eb0-ada5-89a893845a5e")
 	)
 	(via
 		(at 129.8011 111.7147)
@@ -42741,14 +43324,6 @@
 		(layer "F.Cu")
 		(net "/Power/PLL_VDD")
 		(uuid "edb069bf-aaeb-4744-863d-36c0f89d006d")
-	)
-	(segment
-		(start 150.80109 100.77859)
-		(end 150.8011 100.7786)
-		(width 0.15)
-		(layer "F.Cu")
-		(net "/Power/PLL_VDD")
-		(uuid "f68a5834-9581-4b81-a2d5-da9271ba68e6")
 	)
 	(via
 		(at 151.32516 101.70442)
@@ -44099,14 +44674,6 @@
 		(uuid "e123743d-83ac-48c6-b0db-1155f54bdc5a")
 	)
 	(segment
-		(start 151.57406 105.55564)
-		(end 151.57438 105.55532)
-		(width 0.1)
-		(layer "In3.Cu")
-		(net "Net-(U1G-UNKNOWN_3)")
-		(uuid "ee6c4a8b-2f97-4213-aa28-4755142d8e7a")
-	)
-	(segment
 		(start 151.21007 104.46963)
 		(end 151.25791 104.51746)
 		(width 0.1)
@@ -44547,14 +45114,6 @@
 		(uuid "5db917db-a521-4b25-93ab-649123d6763d")
 	)
 	(segment
-		(start 122.6011 99.4286)
-		(end 122.6011 99.4286)
-		(width 0.1)
-		(layer "In4.Cu")
-		(net "/Wireless_SD/BT_REG_ON")
-		(uuid "ace97e71-38c7-4dfb-ad7a-2b8b37692d10")
-	)
-	(segment
 		(start 148.66036 111.45778)
 		(end 148.66036 111.42622)
 		(width 0.1)
@@ -44849,14 +45408,6 @@
 		(layer "F.Cu")
 		(net "Net-(U1G-UNKNOWN_5)")
 		(uuid "af94830e-de1b-442e-88e2-7c92449745d2")
-	)
-	(segment
-		(start 151.91501 104.1379)
-		(end 151.91501 104.13789)
-		(width 0.1)
-		(layer "F.Cu")
-		(net "Net-(U1G-UNKNOWN_5)")
-		(uuid "b63f4aad-f21c-4c7c-b78a-a194b45b245c")
 	)
 	(segment
 		(start 152.01234 104.04057)

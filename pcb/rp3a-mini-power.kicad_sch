@@ -18056,7 +18056,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "18p"
+		(property "Value" "27p"
 			(at 109.22 155.956 90)
 			(hide yes)
 			(show_name no)
@@ -18101,7 +18101,7 @@
 				)
 			)
 		)
-		(property "MPN" "0402CG180J500NT"
+		(property "MPN" "0402CG270J500NT"
 			(at 109.22 149.86 0)
 			(effects
 				(font
@@ -18110,7 +18110,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1549"
+		(property "LCSC" "C1557"
 			(at 109.22 149.86 0)
 			(effects
 				(font
@@ -26631,7 +26631,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "18p"
+		(property "Value" "27p"
 			(at 109.22 176.276 90)
 			(hide yes)
 			(show_name no)
@@ -26676,7 +26676,7 @@
 				)
 			)
 		)
-		(property "MPN" "0402CG180J500NT"
+		(property "MPN" "0402CG270J500NT"
 			(at 109.22 170.18 0)
 			(effects
 				(font
@@ -26685,7 +26685,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1549"
+		(property "LCSC" "C1557"
 			(at 109.22 170.18 0)
 			(effects
 				(font

@@ -1,0 +1,197 @@
+(footprint "LED_0603"
+(version 20260206)
+(generator "pcbnew")
+(generator_version "10.0")
+	(layer "F.Cu")
+	(uuid "d0095fc7-3fca-4d8d-8e83-7136ca863ed1")
+	(property "Reference" "REF**"
+		(at -0.3366 -0.90475 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "dd13d6a9-e669-465c-90ae-6528c1b1b7a1")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.2)
+			)
+		)
+	)
+	(property "Value" "LED_GREEN"
+		(at 3.827402 -5.57505 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "e4997d23-c330-4b5e-a8af-958c5a5110fc")
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.lcsc.com/product-detail/C72043.html"
+		(at 0 0 270)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9aef7d2e-10a0-49b0-bbdf-77de9b784c51")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "Green 0603 SMD LED"
+		(at 0 0 270)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5a660698-d3f2-4ca0-a319-e35e49b7306c")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "MPN" "19-217/GHC-YR1S2/3T"
+		(at 169.1011 108.2286 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(hide yes)
+		)
+	)
+	(property "LCSC" "C72043"
+		(at 169.1011 108.2286 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(hide yes)
+		)
+	)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -1.397 0.635)
+		(end -1.397 -0.635)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7bac105f-246d-4721-8eb1-287f3de5afe1")
+	)
+	(fp_line
+		(start -0.325 0.175)
+		(end -0.325 -0.175)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "User.13")
+		(uuid "66454fd6-7906-4486-83ab-2a3f4051f55e")
+	)
+	(fp_line
+		(start 0.325 0.175)
+		(end -0.325 0.175)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "User.13")
+		(uuid "aa603fc5-74ac-412a-82c6-b61086474807")
+	)
+	(fp_line
+		(start 0.325 0.175)
+		(end 0.325 -0.175)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "User.13")
+		(uuid "4f35844e-0820-4720-a355-dae80fc9ccbe")
+	)
+	(fp_line
+		(start 0.325 -0.175)
+		(end -0.325 -0.175)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "User.13")
+		(uuid "61f42ba8-5a7f-47d2-af86-c02d65454c30")
+	)
+	(fp_line
+		(start -1.2192 0.6096)
+		(end -1.2192 -0.6096)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "User.15")
+		(uuid "49af656b-7fb5-4216-94e5-37f19361ecc5")
+	)
+	(fp_line
+		(start 1.2192 0.6096)
+		(end -1.2192 0.6096)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "User.15")
+		(uuid "6a3de203-8ada-4141-8937-557d19b00432")
+	)
+	(fp_line
+		(start 1.2192 0.6096)
+		(end 1.2192 -0.6096)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "User.15")
+		(uuid "61149977-e43f-4cf2-a17a-47485bb5cf0a")
+	)
+	(fp_line
+		(start 0 0.175)
+		(end 0 -0.175)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "User.15")
+		(uuid "11280d0f-39a3-4aaa-8515-78106a78d8fa")
+	)
+	(fp_line
+		(start 0.175 0)
+		(end -0.175 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "User.15")
+		(uuid "7a8d88b8-c715-4f70-8b2e-611539170f60")
+	)
+	(fp_line
+		(start 1.2192 -0.6096)
+		(end -1.2192 -0.6096)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "User.15")
+		(uuid "c82fdc1f-1b2e-4965-9983-c87c0e8e30c9")
+	)
+	(pad "1" smd rect
+		(at -0.75 0 270)
+		(size 0.6 0.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "8c876b19-dc3b-4579-94b8-08b468c39e94")
+	)
+	(pad "2" smd rect
+		(at 0.75 0 270)
+		(size 0.6 0.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "a6e92f5e-5bde-41fb-b55d-fe140ffb12e8")
+	)
+	(embedded_fonts no)
+)

@@ -1,0 +1,251 @@
+(footprint "SOT50P162X60-6N"
+(version 20260206)
+(generator "pcbnew")
+(generator_version "10.0")
+	(layer "F.Cu")
+	(uuid "93625bf0-d652-4b73-8ed8-03be01f5fd3a")
+	(property "Reference" "REF**"
+		(at 0.62713 2.10465 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "b4241fe2-e1e0-4887-8c7e-df0bb3f82818")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.2)
+			)
+		)
+	)
+	(property "Value" "DMN2004VK-7"
+		(at -6.817315 -2.606802 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "9c744178-9ae2-4401-8c3c-b81fc944caa1")
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/5e4b1f49924daf384bc89b8b62738c79.pdf"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "49554985-1e62-4fe7-81bd-2ebdfc023334")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "Dual N-Channel MOSFET 20V 540mA SOT-563"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "071ae769-777a-4cb2-b489-230511292dec")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "MPN" "DMN2004VK-7"
+		(at 166.7011 98.0286 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(hide yes)
+		)
+	)
+	(property "LCSC" "C145115"
+		(at 166.7011 98.0286 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(hide yes)
+		)
+	)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start 0.63 0.85)
+		(end -0.63 0.85)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6ccebc5d-2048-4c55-b1c2-cfc0c19dea9c")
+	)
+	(fp_line
+		(start 0.63 -0.85)
+		(end -0.63 -0.85)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "333fc8db-106e-43c7-93c2-1fda61bec35d")
+	)
+	(fp_circle
+		(center -1.5 -0.5)
+		(end -1.5 -0.45)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "97829c12-b806-416a-9104-d7495fb07334")
+	)
+	(fp_line
+		(start 0.63 0.85)
+		(end -0.63 0.85)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "User.13")
+		(uuid "47d4d62e-73ac-4395-963b-99fdbf3a2d81")
+	)
+	(fp_line
+		(start 0.63 -0.85)
+		(end 0.63 0.85)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "User.13")
+		(uuid "6a5e00cd-f3c3-4dc8-a50f-adafad0b110b")
+	)
+	(fp_line
+		(start 0.63 -0.85)
+		(end -0.63 -0.85)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "User.13")
+		(uuid "05af0e92-cb37-41c9-af19-a1ee93acf04f")
+	)
+	(fp_line
+		(start -0.63 -0.85)
+		(end -0.63 0.85)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "User.13")
+		(uuid "382be2d7-c6fe-4151-a231-8d0cebff282d")
+	)
+	(fp_circle
+		(center -0.3 -0.5)
+		(end -0.3 -0.45)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(fill no)
+		(layer "User.13")
+		(uuid "88bc62a7-b3f4-41a1-8b22-3879c9eaf014")
+	)
+	(fp_line
+		(start 1.22 1)
+		(end -1.22 1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "User.15")
+		(uuid "204cef05-2f23-4c67-a4c0-07d9dc3736b8")
+	)
+	(fp_line
+		(start 1.22 -1)
+		(end 1.22 1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "User.15")
+		(uuid "37054813-24ae-4c1a-a059-185b56c30005")
+	)
+	(fp_line
+		(start 1.22 -1)
+		(end -1.22 -1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "User.15")
+		(uuid "18702bfc-63b2-4049-a020-b38fd129e1b6")
+	)
+	(fp_line
+		(start -1.22 -1)
+		(end -1.22 1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "User.15")
+		(uuid "ecd424a9-411b-4a55-a5c1-9c769a05d1a5")
+	)
+	(pad "1" smd rect
+		(at -0.795 -0.5 180)
+		(size 0.55 0.34)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "f71a1ece-f1e1-436e-b064-03f5290e2e6b")
+	)
+	(pad "2" smd rect
+		(at -0.795 0 180)
+		(size 0.55 0.34)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "d8fc64e9-8d35-4f57-a368-132d0f23f0b2")
+	)
+	(pad "3" smd rect
+		(at -0.795 0.5 180)
+		(size 0.55 0.34)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "345ede1d-9ae3-4dea-99e5-331d9673b4cd")
+	)
+	(pad "4" smd rect
+		(at 0.795 0.5 180)
+		(size 0.55 0.34)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "b0a685d7-9235-421a-a3c6-36ffe2b3243d")
+	)
+	(pad "5" smd rect
+		(at 0.795 0 180)
+		(size 0.55 0.34)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "bf6c8409-3e90-434d-b9a5-e2c81abfeeb0")
+	)
+	(pad "6" smd rect
+		(at 0.795 -0.5 180)
+		(size 0.55 0.34)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "4ac5663e-471a-45d7-b24f-c46e1304bcb4")
+	)
+	(embedded_fonts no)
+	(embedded_files
+		(file
+			(name "step_temp_1.STEP")
+			(type other)
+			(checksum "30918CDC2467E9B16F985934FF9ED077")
+		)
+	)
+	(model "kicad-embed://step_temp_1.STEP"
+		(offset
+			(xyz -0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 0)
+		)
+	)
+)

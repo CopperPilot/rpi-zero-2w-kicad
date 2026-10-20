@@ -1,0 +1,256 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "fb77706f-8c00-4464-a8f5-04cf2e5bdb3a")
+	(paper "A4")
+	(title_block
+		(title "RP3A0 Pico")
+		(date "2026-03-06")
+		(rev "1.1")
+		(comment 1 "Raspberry Pi Zero 2W RP3A0-AU SiP in Pi Pico Form Factor")
+		(comment 2 "6-Layer PCB for JLCPCB Manufacturing")
+	)
+	(lib_symbols)
+	(sheet
+		(at 12.7 33.02)
+		(size 30.48 30.48)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 128 0 0 1)
+		)
+		(fill
+			(color 128 255 128 1)
+		)
+		(uuid "26e50b47-97b3-4e11-8d8c-bd4af622cc5b")
+		(property "Sheetname" "Power"
+			(at 12.7 30.48 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "rp3a-mini-power.kicad_sch"
+			(at 12.7 33.02 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(instances
+			(project ""
+				(path "/fb77706f-8c00-4464-a8f5-04cf2e5bdb3a"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 170.18 33.02)
+		(size 30.48 30.48)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 128 0 0 1)
+		)
+		(fill
+			(color 128 255 128 1)
+		)
+		(uuid "511fd5a4-68d1-46ff-865b-2bd6f2599f23")
+		(property "Sheetname" "Misc_JTAG"
+			(at 170.18 30.48 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "rp3a0-mini-misc.kicad_sch"
+			(at 170.18 33.02 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(instances
+			(project ""
+				(path "/fb77706f-8c00-4464-a8f5-04cf2e5bdb3a"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 129.54 33.02)
+		(size 30.48 30.48)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 128 0 0 1)
+		)
+		(fill
+			(color 128 255 128 1)
+		)
+		(uuid "5ea16e96-056f-444a-888c-43d3f1f64d4b")
+		(property "Sheetname" "Wireless_SD"
+			(at 129.54 30.48 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "rp3a0-mini-wireless-sd.kicad_sch"
+			(at 129.54 33.02 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(instances
+			(project ""
+				(path "/fb77706f-8c00-4464-a8f5-04cf2e5bdb3a"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 88.9 33.02)
+		(size 30.48 30.48)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 128 0 0 1)
+		)
+		(fill
+			(color 128 255 128 1)
+		)
+		(uuid "74a7c8d5-b90f-420d-bfea-c81c5a45bfe2")
+		(property "Sheetname" "HDMI_USB"
+			(at 88.9 30.48 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "rp3a0-mini-hdmi.kicad_sch"
+			(at 88.9 33.02 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(instances
+			(project ""
+				(path "/fb77706f-8c00-4464-a8f5-04cf2e5bdb3a"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 50.8 33.02)
+		(size 30.48 30.48)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 128 0 0 1)
+		)
+		(fill
+			(color 128 255 128 1)
+		)
+		(uuid "83b45007-dbb8-4cf2-ac40-039e2e3c73f0")
+		(property "Sheetname" "GPIO"
+			(at 50.8 30.48 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "rp3a0-mini-gpio.kicad_sch"
+			(at 50.8 33.02 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(instances
+			(project ""
+				(path "/fb77706f-8c00-4464-a8f5-04cf2e5bdb3a"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "#")
+		)
+	)
+	(embedded_fonts no)
+)

@@ -2,6 +2,9 @@
 
 This directory contains the native **KiCad 10** schematic, 6-layer PCB layout, project-local symbol/footprint libraries, PyTest verification suite, and automated JLCPCB fabrication/assembly export pipeline for the **RP3A0 Pico**.
 
+![KiCad 10 Raytraced 3D Top View]( ../docs/images/kicad-3d-top.png)
+![KiCad 10 Raytraced 3D Bottom View](../docs/images/kicad-3d-bottom.png)
+
 ---
 
 ## 1. Board Specifications & Geometry
@@ -29,12 +32,14 @@ This directory contains the native **KiCad 10** schematic, 6-layer PCB layout, p
 ## 3. Power Distribution & Thermal Architecture
 
 - **Continuous Ground Return Planes:** `In1.Cu` (0.100 mm below `F.Cu`), `In4.Cu` (0.100 mm above `B.Cu`), and `B.Cu` carry stitched `GND` copper pours tied together by 107 through-hole `GND` stitching vias.
-- **Dedicated Internal Power Planes:** `In2.Cu` (`5V`, `1V8`, `DDR_1V25`, `VDD_CORE`) and `In3.Cu` (`3V3`, `HDMI_5V`, `VDD_CORE`) distribute low-impedance power across the board.
+- **Dedicated Internal Power Planes:** `In2.Cu` (`5V`, `1V8`, `DDR_1V25`, `VDD_CORE`) and `In3.Cu` (`3V3`, `HDMI_5V`, `VDD_CORE`) distribute low-impedance power across the board, fed by a `0.50 mm` `5V` input trunk and 3 parallel `5V` stitching vias.
 - **Thermal Margin:** All regulators (`U2`, `U3`, `U4`) and pass elements (`Q1`, `D2`) operate with junction temperatures `< 71 °C` at `50 °C` ambient.
 
 ---
 
 ## 4. Hierarchical Schematic Sheets
+
+![Altium vs. KiCad Schematic Comparison](../docs/images/altium-vs-kicad-schematic-comparison.png)
 
 | Sheet Name | File | Contents |
 |---|---|---|

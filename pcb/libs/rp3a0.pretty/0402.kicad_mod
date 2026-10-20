@@ -1,0 +1,199 @@
+(footprint "0402"
+(version 20260206)
+(generator "pcbnew")
+(generator_version "10.0")
+	(layer "F.Cu")
+	(uuid "fca4a7fb-13de-4d32-b527-bcb25f9e72d9")
+	(property "Reference" "REF**"
+		(at 0.12645 -1.4734 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "5237df06-2e9e-4510-a569-28d6958250f8")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.2)
+			)
+		)
+	)
+	(property "Value" "220n"
+		(at 1.586845 1.971802 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "1960f367-91ef-41e3-afe1-fb62a7bd4e8e")
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/02336ea48ea44ca18c72517dd3cb7b47.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dc348600-415f-4923-bbd1-8ae92fbcd506")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "220nF 16V X7R 0402 MLCC"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "07a171e0-9e62-4179-a7e3-e830d55c0073")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "MPN" "CL05B224KO5NNNC"
+		(at 151.9011 97.3786 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(hide yes)
+		)
+	)
+	(property "LCSC" "C16772"
+		(at 151.9011 97.3786 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(hide yes)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -0.9 -0.35)
+		(end 0.9 -0.35)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e9921997-e54c-4923-a704-b3f3490bef4b")
+	)
+	(fp_line
+		(start 0.9 -0.35)
+		(end 0.9 0.35)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "7c7a969c-917d-43bf-b144-df0fa9985597")
+	)
+	(fp_line
+		(start 0.9 0.35)
+		(end -0.9 0.35)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "aaa94efb-d857-40ef-a14d-953711fa6709")
+	)
+	(fp_line
+		(start -0.9 0.35)
+		(end -0.9 -0.35)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ce0f75ee-ec95-4477-bc6c-15393787fcb5")
+	)
+	(fp_line
+		(start -0.9 -0.35)
+		(end 0.9 -0.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "User.15")
+		(uuid "74b7e1a7-a79e-4e2c-8a88-eb552441d441")
+	)
+	(fp_line
+		(start -0.9 0.35)
+		(end -0.9 -0.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "User.15")
+		(uuid "e826ca26-7652-4772-b708-8ecb06df7960")
+	)
+	(fp_line
+		(start -0.9 0.35)
+		(end 0.9 0.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "User.15")
+		(uuid "5c93c203-c6c4-4fdd-a4ad-904c6b4f054f")
+	)
+	(fp_line
+		(start -0.3 0)
+		(end 0.3 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "User.15")
+		(uuid "7668682a-ca9e-45da-9994-3e53cd57587c")
+	)
+	(fp_line
+		(start 0 0.3)
+		(end 0 -0.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "User.15")
+		(uuid "8b1d7aab-c967-4d21-9972-509de57cd0d2")
+	)
+	(fp_line
+		(start 0.9 0.35)
+		(end 0.9 -0.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "User.15")
+		(uuid "35c9bc02-b85a-4bab-a341-46bdd14e9b9a")
+	)
+	(pad "1" smd rect
+		(at -0.508 0)
+		(size 0.5 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "06d1025b-b9cb-46b3-a598-d48490240683")
+	)
+	(pad "2" smd rect
+		(at 0.508 0)
+		(size 0.5 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "29f76ce2-b6a6-47be-af3b-8de7431a64f4")
+	)
+	(embedded_fonts no)
+	(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

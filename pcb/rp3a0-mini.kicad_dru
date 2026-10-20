@@ -1,0 +1,5 @@
+(version 1)
+(rule "Castellated_J5_Edge"
+	(condition "A.memberOfFootprint('J5') || B.memberOfFootprint('J5')")
+	(constraint edge_clearance (min -2.0mm))
+)

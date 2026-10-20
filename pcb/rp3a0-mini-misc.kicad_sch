@@ -465,14 +465,14 @@
 				(pin passive line
 					(at 0 0 270)
 					(length 2.54)
-					(name "1"
+					(name "2"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "1"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -483,14 +483,14 @@
 				(pin passive line
 					(at 0 -10.16 90)
 					(length 2.54)
-					(name "2"
+					(name "1"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "2"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -9252,7 +9252,7 @@
 				)
 			)
 		)
-		(property "MPN" "0402WGF2400TCE"
+		(property "MPN" "RC0402FR-07240RL"
 			(at 149.86 76.2 0)
 			(effects
 				(font
@@ -9261,7 +9261,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25094"
+		(property "LCSC" "C114755"
 			(at 149.86 76.2 0)
 			(effects
 				(font
@@ -9828,7 +9828,7 @@
 				)
 			)
 		)
-		(property "MPN" "0402WGF2400TCE"
+		(property "MPN" "RC0402FR-07240RL"
 			(at 160.02 71.12 0)
 			(effects
 				(font
@@ -9837,7 +9837,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25094"
+		(property "LCSC" "C114755"
 			(at 160.02 71.12 0)
 			(effects
 				(font
@@ -10002,7 +10002,7 @@
 				)
 			)
 		)
-		(property "MPN" "0402WGF2400TCE"
+		(property "MPN" "RC0402FR-07240RL"
 			(at 154.94 68.58 0)
 			(effects
 				(font
@@ -10011,7 +10011,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25094"
+		(property "LCSC" "C114755"
 			(at 154.94 68.58 0)
 			(effects
 				(font
@@ -10079,7 +10079,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/product-detail/C72043.html"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1806151818_Hubei-KENTO-Elec-KT-0603G_C12624.pdf"
 			(at 81.28 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -10101,7 +10101,7 @@
 				)
 			)
 		)
-		(property "MPN" "19-217/GHC-YR1S2/3T"
+		(property "MPN" "KT-0603G"
 			(at 81.28 83.82 0)
 			(effects
 				(font
@@ -10110,7 +10110,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C72043"
+		(property "LCSC" "C12624"
 			(at 81.28 83.82 0)
 			(effects
 				(font

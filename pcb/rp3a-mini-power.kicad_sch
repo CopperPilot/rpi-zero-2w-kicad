@@ -23029,7 +23029,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MP" "ECS-192-18-33-JGN-TR"
+		(property "MP" "S3219200182080C3"
 			(at 114.3 160.02 90)
 			(hide yes)
 			(show_name no)
@@ -23053,7 +23053,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MPN" "ECS-192-18-33-JGN-TR"
+		(property "MPN" "S3219200182080C3"
 			(at 114.3 160.02 0)
 			(effects
 				(font
@@ -23062,7 +23062,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2450083"
+		(property "LCSC" "C5380596"
 			(at 114.3 160.02 0)
 			(effects
 				(font
@@ -23389,7 +23389,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "RT9081A-1BGQZA(2)"
+		(property "Value" "NCP133AMX125TCG"
 			(at 170.18 71.12 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23411,7 +23411,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.richtek.com/assets/product_file/RT9081A/DS9081A-05.pdf"
+		(property "Datasheet" "https://www.onsemi.com/download/data-sheet/pdf/ncp133-d.pdf"
 			(at 180.34 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -23517,7 +23517,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MPN" "RT9081A-1BGQZA(2)"
+		(property "MPN" "NCP133AMX125TCG"
 			(at 180.34 58.42 0)
 			(effects
 				(font
@@ -23526,7 +23526,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C7303451"
+		(property "LCSC" "C603545"
 			(at 180.34 58.42 0)
 			(effects
 				(font

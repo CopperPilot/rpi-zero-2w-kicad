@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "rp3a0")(type "KiCad")(uri "${KIPRJMOD}/libs/symbols/rp3a0.kicad_sym")(options "")(descr "RP3A0 Pico Project Symbol Library"))
+)

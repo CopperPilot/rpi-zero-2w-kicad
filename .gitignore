@@ -1,0 +1,82 @@
+# ==============================================================================
+# RP3A0 Pico (KiCad 10 Port) - Git Ignore Specification
+# ==============================================================================
+
+# ------------------------------------------------------------------------------
+# KiCad EDA & Hardware Artifacts
+# ------------------------------------------------------------------------------
+*.kicad_prl
+*.bak
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*-backups/
+_autosave-*
+~*.lck
+fp-info-cache
+*.net
+*.dsn
+*.ses
+*.cad
+*.xml
+*.svg
+
+# Fabrication & Gerber Release Bundles
+pcb/build/
+fab/
+manufacturing/
+*.gbrjob
+*.zip
+
+# ------------------------------------------------------------------------------
+# Code Coverage & Profiling
+# ------------------------------------------------------------------------------
+*.gcno
+*.gcda
+*.gcov
+*.info
+coverage/
+coverage_html/
+htmlcov/
+.coverage
+.coverage.*
+
+# ------------------------------------------------------------------------------
+# Python & Testing Caches
+# ------------------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.tox/
+.nox/
+venv/
+.venv/
+ENV/
+env/
+
+# ------------------------------------------------------------------------------
+# CopperPilot Internal Metadata & AI Tooling
+# ------------------------------------------------------------------------------
+.copperpilot/
+.copperpilot
+.copperpilot*
+.validate-scratch/
+
+# ------------------------------------------------------------------------------
+# Operating System, Media & Editor Files
+# ------------------------------------------------------------------------------
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+pcb/.history/

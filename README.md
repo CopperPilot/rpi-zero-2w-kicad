@@ -21,7 +21,7 @@ Native **KiCad 10** hardware translation and JLCPCB 6-layer manufacturing releas
 |         +--------------> [U4: PAM2306AYPKE]                     v                 |
 |         |                  |            |                  VDD_CORE (0.6-1.35V)   |
 |         |                  v            v                       |                 |
-|         |             3V3 (1A)      1V8 (1A) ---> [U2: RT9081A] |                 |
+|         |             3V3 (1A)      1V8 (1A) ---> [U2: NCP133AMX125]              |
 |         |                  |            |              |        |                 |
 |         |                  |            |         DDR_1V25      |                 |
 |         v                  v            v              v        v                 |
@@ -31,7 +31,7 @@ Native **KiCad 10** hardware translation and JLCPCB 6-layer manufacturing releas
 |  [J2: Micro-HDMI] <----+-- 4x TMDS (FL1-FL4 EXC24CH900U) + CEC/HPD (U5)|          |
 |                        |                                               |          |
 |  [J1: MicroSD]    <----+-- 4-bit SDIO (SD_CLK, SD_CMD, SD_DAT0..3)     |          |
-|  [Y1: 19.2MHz]    <----+-- Primary Crystal Oscillator (18pF C6, C9)    |          |
+|  [Y1: 19.2MHz]    <----+-- Primary Crystal Oscillator (27pF C6, C9)    |          |
 |  [J5: Pico 40-Pin]<----+-- Castellated GPIO0..GPIO25, 3V3, VBUS, GND   |          |
 +-----------------------------------------------------------------------------------+
 ```
@@ -43,16 +43,16 @@ Native **KiCad 10** hardware translation and JLCPCB 6-layer manufacturing releas
 - **SoC / SiP (`U1`):** Broadcom / Raspberry Pi `RP3A0-AU` (323-ball 0.65 mm pitch BGA, 15 × 15 mm; harvested and reballed with 0.3 mm solder balls from a donor Raspberry Pi Zero 2W).
 - **Form Factor & Dimensions:** `60.00 mm × 20.35 mm` overall (`51.00 mm × 20.35 mm` standard Raspberry Pi Pico 40-pin castellated footprint + `9.00 mm` right-side overhang for Micro-HDMI and USB-C receptacles).
 - **6-Layer JLCPCB Stackup (`1.6 mm` ENIG):**
-  - `F.Cu` (1 oz): All 93 SMT components, `U1` BGA fanout, `TP10`–`TP22`/`TP28` Wi-Fi/BT SDIO/UART test pads, and local power polygons.
+  - `F.Cu` (1 oz): All 93 SMT components, `U1` BGA fanout, `TP10`–`TP22`/`TP28` Wi-Fi/BT SDIO/UART test pads, 3 global optical fiducials (`FID1`–`FID3`), and local power polygons.
   - `In1.Cu` (0.5 oz): Continuous `GND` reference plane + inner BGA escape routing.
   - `In2.Cu` (0.5 oz): Split power planes (`5V`, `1V8`, `DDR_1V25`, `VDD_CORE`) + high-speed routing.
   - `In3.Cu` (0.5 oz): Split power planes (`3V3`, `HDMI_5V`, `VDD_CORE`) + signal routing.
-  - `In4.Cu` (0.5 oz): GPIO, SDIO, and HDMI routing layer.
-  - `B.Cu` (1 oz): Solid `GND` pour, bottom power/JTAG test points (`TP1`–`TP9`, `TP23`–`TP27`), and `J4` USB Host `USB_ID` solder jumper.
+  - `In4.Cu` (0.5 oz): Stitched `GND` reference plane pour + GPIO, SDIO, and HDMI routing.
+  - `B.Cu` (1 oz): Solid `GND` pour, high-speed differential routing, bottom power/JTAG test points (`TP1`–`TP9`, `TP23`–`TP27`), and `J4` USB Host `USB_ID` solder jumper.
 - **Power Management:**
   - `U4` (`PAM2306AYPKE`, LCSC `C508236`): Dual 1 A synchronous buck converter generating `3V3` (`L2` = 4.7 µH) and `1V8` (`L3` = 2.2 µH).
   - `U3` (`RT8088AWSC`, LCSC `C5739348`): I2C-programmable 3 A synchronous buck regulator generating `VDD_CORE` (`L1` = 470 nH).
-  - `U2` (`RT9081A-1BGQZA(2)`, LCSC `C7303451`): 500 mA ultra-low-dropout LDO generating `DDR_1V25` from `1V8` (`VBIAS` = `3V3`).
+  - `U2` (`NCP133AMX125TCG`, LCSC `C603545`): 500 mA ultra-low-dropout Fixed 1.25 V LDO generating `DDR_1V25` from `1V8` (`VBIAS` = `3V3`).
   - `Q1` (`DMG2305UX-7`, LCSC `C150470`): High-side P-MOSFET switch gating `5V_CORE`.
 
 ---

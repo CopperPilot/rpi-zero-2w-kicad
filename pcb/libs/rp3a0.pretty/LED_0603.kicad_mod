@@ -30,7 +30,7 @@
 			)
 		)
 	)
-	(property "Datasheet" "https://www.lcsc.com/product-detail/C72043.html"
+	(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1806151818_Hubei-KENTO-Elec-KT-0603G_C12624.pdf"
 		(at 0 0 270)
 		(layer "F.Fab")
 		(hide yes)
@@ -52,7 +52,7 @@
 			)
 		)
 	)
-	(property "MPN" "19-217/GHC-YR1S2/3T"
+	(property "MPN" "KT-0603G"
 		(at 169.1011 108.2286 0)
 		(effects
 			(font
@@ -61,7 +61,7 @@
 			(hide yes)
 		)
 	)
-	(property "LCSC" "C72043"
+	(property "LCSC" "C12624"
 		(at 169.1011 108.2286 0)
 		(effects
 			(font
@@ -72,6 +72,86 @@
 	)
 	(attr smd)
 	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -0.325 0.175)
+		(end -0.325 -0.175)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c0ca81ff-e528-447c-b62a-02609c7dd601")
+	)
+	(fp_line
+		(start 0.325 0.175)
+		(end -0.325 0.175)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "84044c2b-5ded-4126-8641-4c7e662b4423")
+	)
+	(fp_line
+		(start 0.325 0.175)
+		(end 0.325 -0.175)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "69f3c2b5-0c55-4cdc-8733-6fcb73a23fc8")
+	)
+	(fp_line
+		(start 0.325 -0.175)
+		(end -0.325 -0.175)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "90e11991-1d17-4426-a7b5-e845abd3ab26")
+	)
+	(fp_line
+		(start -1.2192 -0.6096)
+		(end 1.2192 -0.6096)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4f47a4c9-4d87-495e-84a8-98e1a5fb8042")
+	)
+	(fp_line
+		(start 1.2192 -0.6096)
+		(end 1.2192 0.6096)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c9177559-95a9-4cde-a652-c4d2b28a2a57")
+	)
+	(fp_line
+		(start 1.2192 0.6096)
+		(end -1.2192 0.6096)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "248ea143-6927-45bd-8c66-d2e39756e9e6")
+	)
+	(fp_line
+		(start -1.2192 0.6096)
+		(end -1.2192 -0.6096)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "66b9d8fc-d9ec-4d23-b962-82b5e42ac6cb")
+	)
 	(fp_line
 		(start -1.397 0.635)
 		(end -1.397 -0.635)

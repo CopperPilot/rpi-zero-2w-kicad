@@ -17,7 +17,7 @@
 			)
 		)
 	)
-	(property "Value" "RT9081A-1BGQZA(2)"
+	(property "Value" "NCP133AMX125TCG"
 		(at -3.267192 10.8928 0)
 		(unlocked yes)
 		(layer "F.SilkS")
@@ -30,7 +30,7 @@
 			)
 		)
 	)
-	(property "Datasheet" "https://www.richtek.com/assets/product_file/RT9081A/DS9081A-05.pdf"
+	(property "Datasheet" "https://www.onsemi.com/download/data-sheet/pdf/ncp133-d.pdf"
 		(at 0 0 90)
 		(layer "F.Fab")
 		(hide yes)
@@ -52,7 +52,7 @@
 			)
 		)
 	)
-	(property "MPN" "RT9081A-1BGQZA(2)"
+	(property "MPN" "NCP133AMX125TCG"
 		(at 138.2011 109.8286 0)
 		(effects
 			(font
@@ -61,7 +61,7 @@
 			(hide yes)
 		)
 	)
-	(property "LCSC" "C7303451"
+	(property "LCSC" "C603545"
 		(at 138.2011 109.8286 0)
 		(effects
 			(font
@@ -72,6 +72,86 @@
 	)
 	(attr smd)
 	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start 0.59999 -0.6)
+		(end 0.59999 0.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3aa3af13-2048-4593-9561-b7f479b398bf")
+	)
+	(fp_line
+		(start -0.6 -0.6)
+		(end 0.59999 -0.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "865b3924-a73e-4fc2-9afa-b3c0ece11b0b")
+	)
+	(fp_line
+		(start -0.6 -0.6)
+		(end -0.6 0.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "23602233-0c02-4673-a567-d7823db55792")
+	)
+	(fp_line
+		(start -0.6 0.6)
+		(end 0.59999 0.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f943db74-c2fc-455e-8e98-225cc17607fd")
+	)
+	(fp_line
+		(start -0.85 -1.25)
+		(end 0.85 -1.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4acc244d-4564-4596-8acb-2b50cf73e4ea")
+	)
+	(fp_line
+		(start 0.85 -1.25)
+		(end 0.85 1.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4a44d8fb-1e91-4069-ad00-cc76c5ce2fa7")
+	)
+	(fp_line
+		(start 0.85 1.25)
+		(end -0.85 1.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "48672f60-4063-44dd-9085-bc68e7c8974b")
+	)
+	(fp_line
+		(start -0.85 1.25)
+		(end -0.85 -1.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "7ce02d62-e75a-4281-9da0-ff302a260d60")
+	)
 	(fp_line
 		(start 0.7 -0.6)
 		(end 0.7 0.6)
@@ -306,4 +386,15 @@
 		(uuid "10ddb35e-1bc2-4b30-84e9-c88465562a0c")
 	)
 	(embedded_fonts no)
+	(model "${KICAD10_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/DFN-6-1EP_1.2x1.2mm_P0.4mm_EP0.3x0.94mm.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

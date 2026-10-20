@@ -25,6 +25,7 @@ except ImportError:
 PCB_DIR = Path(__file__).resolve().parent
 BUILD_DIR = PCB_DIR / "build"
 GERBER_DIR = BUILD_DIR / "gerbers"
+JLCPCB_DIR = PCB_DIR / "jlcpcb"
 
 PROJECT_NAME = "rp3a0-mini"
 PCB_FILE = PCB_DIR / f"{PROJECT_NAME}.kicad_pcb"
@@ -43,6 +44,7 @@ GERBER_LAYERS = (
 def ensure_dirs():
     BUILD_DIR.mkdir(parents=True, exist_ok=True)
     GERBER_DIR.mkdir(parents=True, exist_ok=True)
+    JLCPCB_DIR.mkdir(parents=True, exist_ok=True)
 
 
 def export_gerbers():
@@ -182,7 +184,17 @@ def export_cpl():
 
     raw_rows.sort(key=natural_sort_key)
 
-    JLCPCB_CORRECTIONS = {}
+    # JLCPCB SMT pick-and-place compensation matrix:
+    # Maps component reference to (delta_rot_deg, delta_x_mm, delta_y_mm)
+    # Corrects for discrepancies between Altium/KiCad footprint origins (e.g. Ball A1
+    # anchor on U3 WLCSP-15) and JLCPCB feeder pocket zero-rotations & part centroids.
+    JLCPCB_CORRECTIONS = {
+        "U3": (0.0, -0.40, 0.80),    # RT8088AWSC WLCSP-15: shift from A1 origin to package center at 180 deg
+        "D2": (0.0, 0.0, 0.3375),    # DFLS130L-7 PowerDI-123: shift from asymmetric pad origin to body center
+        "Q1": (180.0, 0.0, 0.0),     # DMG2305UX-7 SOT-23: JLCPCB tape pocket zero orientation offset
+        "U4": (-90.0, 0.0, 0.0),     # PAM2306AYPKE DFN-12: JLCPCB pin-1 quadrant orientation offset
+        "U5": (-90.0, 0.0, 0.0),     # DMN2004VK-7 SOT-563: JLCPCB pin-1 quadrant orientation offset
+    }
 
     rows_csv = []
     rows_xlsx = []
@@ -222,6 +234,7 @@ def export_cpl():
         writer.writerow(["Designator", "Mid X", "Mid Y", "Layer", "Rotation"])
         writer.writerows(rows_csv)
 
+    shutil.copy2(cpl_csv_path, JLCPCB_DIR / f"{PROJECT_NAME}-cpl.csv")
     write_cpl_xlsx_workbook(rows_xlsx, cpl_xlsx_path)
 
     if raw_pos.exists():
@@ -305,6 +318,7 @@ def export_bom():
         writer.writerow(["Comment", "Designator", "Footprint", "JLCPCB Part #（optional）"])
         writer.writerows(bom_grouped_rows)
 
+    shutil.copy2(bom_path, JLCPCB_DIR / f"{PROJECT_NAME}-bom.csv")
     bom_xlsx_path = BUILD_DIR / f"{PROJECT_NAME}-bom.xlsx"
     write_bom_xlsx_workbook(bom_grouped_rows, bom_xlsx_path)
 

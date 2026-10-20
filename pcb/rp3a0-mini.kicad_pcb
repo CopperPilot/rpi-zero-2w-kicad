@@ -7,6 +7,13 @@
 		(legacy_teardrops no)
 	)
 	(paper "A4")
+	(title_block
+		(title "RP3A0 Pico")
+		(date "2026-03-06")
+		(rev "1.1")
+		(comment 1 "Raspberry Pi Zero 2W RP3A0-AU SiP in Pi Pico Form Factor")
+		(comment 2 "6-Layer PCB for JLCPCB Manufacturing")
+	)
 	(layers
 		(0 "F.Cu" signal "Top Layer")
 		(4 "In1.Cu" signal "Mid Layer 1")
@@ -7105,7 +7112,7 @@
 				)
 			)
 		)
-		(property "Value" "18p"
+		(property "Value" "27p"
 			(at -5.398155 7.432802 0)
 			(unlocked yes)
 			(layer "F.SilkS")
@@ -7140,7 +7147,7 @@
 				)
 			)
 		)
-		(property "MPN" "0402CG180J500NT"
+		(property "MPN" "0402CG270J500NT"
 			(at 159.0011 100.6286 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -7152,7 +7159,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C1549"
+		(property "LCSC" "C1557"
 			(at 159.0011 100.6286 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -13309,7 +13316,7 @@
 				)
 			)
 		)
-		(property "Value" "18p"
+		(property "Value" "27p"
 			(at 2.475845 2.098802 0)
 			(unlocked yes)
 			(layer "F.SilkS")
@@ -13344,7 +13351,7 @@
 				)
 			)
 		)
-		(property "MPN" "0402CG180J500NT"
+		(property "MPN" "0402CG270J500NT"
 			(at 159.0011 99.7286 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -13356,7 +13363,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C1549"
+		(property "LCSC" "C1557"
 			(at 159.0011 99.7286 0)
 			(layer "F.Fab")
 			(hide yes)

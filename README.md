@@ -1,19 +1,36 @@
-# RP3A0 Pico: 6-Layer Raspberry Pi Zero 2W SiP Carrier in Pi Pico Form Factor
+# RP3A0 Pico, ported to KiCad
 
-![KiCad](https://img.shields.io/badge/KiCad-v10.0.4-blue)
-![DRC](https://img.shields.io/badge/DRC-Zero_Errors_%7C_100%25_Routed-brightgreen)
-![ERC](https://img.shields.io/badge/ERC-Zero_Errors-brightgreen)
-![Validate](https://img.shields.io/badge/copper--pilot_validate-PASS_(15_Pass_%7C_0_Fail)-success)
+A KiCad 10 port of **[jonny12375](https://github.com/jonny12375)'s [RP3A0 Pico](https://github.com/jonny12375/rp3a0)**: the Raspberry Pi Zero 2W's RP3A0 chip (quad-core Cortex-A53 + 512 MB RAM) on a board the size of a Raspberry Pi Pico, with Micro-HDMI, USB-C and microSD.
+
+> **The design is jonny12375's work.** They reverse-engineered the RP3A0 pinout, harvested and reballed the chip from a Zero 2W, designed the board in Altium, and built one that boots and gets online. Please go read and star [the original repo](https://github.com/jonny12375/rp3a0). The [reballing guide](https://github.com/jonny12375/rp3a0/blob/main/docs/reballing.md) is there too, and you'll need it to build one of these.
+
+![KiCad](https://img.shields.io/badge/KiCad-10.0.4-blue)
 ![Fab](https://img.shields.io/badge/JLCPCB-6--Layer_ENIG-orange)
-![Tests](https://img.shields.io/badge/Tests-16%2F16_PyTest_Hardware_Suite-blueviolet)
-
-Native **KiCad 10** hardware translation and JLCPCB 6-layer manufacturing release of the open-source **RP3A0 Pico** (`https://github.com/jonny12375/rp3a0`), integrating the **Raspberry Pi RP3A0-AU System-in-Package** (Quad-core 64-bit ARM Cortex-A53 @ 1 GHz + 512 MiB LPDDR2 SDRAM) into a Raspberry Pi Pico castellated module with Micro-HDMI, USB-C OTG, and microSD storage.
 
 ![Altium Designer 25 vs. KiCad 10.0.4 3D Render Comparison](docs/images/altium-vs-kicad-3d-comparison.png)
 
----
+## Why this port exists
 
-## 1. System Architecture
+The original is an Altium project, and plenty of people don't have Altium or can't open its files. This repo puts the same design in KiCad, which is free, and adds JLCPCB-ready output so you can order it without redoing the work.
+
+## Status
+
+- **The original design works.** jonny12375 built it and it boots and gets online (their notes: HDMI is sketchy, there is no Wi-Fi, and USB-C is a bit odd).
+- **This KiCad port has not been fabricated yet.** We tried to recreate the original faithfully and it passes ERC/DRC, but a clean DRC doesn't mean the board boots. If you build one, please [open an issue](../../issues) and tell us how it went, good or bad.
+
+## What changed from the original
+
+The goal was a faithful copy, but a few things were fixed along the way:
+
+- **Crystal load caps:** `C6`/`C9` went from 18 pF to 27 pF to match the 19.2 MHz crystal's spec.
+- **Ground and power:** added a GND pour on `In4.Cu` with extra stitching vias, and widened a thin 0.15 mm section of the 5V input to 0.50 mm.
+- **Manufacturability:** solder mask webs on the fine-pitch parts (`U3`, `J2`), fiducials and teardrops.
+- **Parts:** a few discontinued or out-of-stock parts swapped for equivalents JLCPCB stocks.
+- **Fab outputs:** Gerbers, BOM and pick-and-place files ready to upload to JLCPCB, with rotations corrected.
+
+The full before/after table and the check results are in [docs/VALIDATION.md](docs/VALIDATION.md).
+
+## System Architecture
 
 ```text
 +-----------------------------------------------------------------------------------+
@@ -41,7 +58,7 @@ Native **KiCad 10** hardware translation and JLCPCB 6-layer manufacturing releas
 
 ---
 
-## 2. Hardware Specifications
+## Hardware
 
 - **SoC / SiP (`U1`):** Broadcom / Raspberry Pi `RP3A0-AU` (323-ball 0.65 mm pitch BGA, 15 × 15 mm; harvested and reballed with 0.3 mm solder balls from a donor Raspberry Pi Zero 2W).
 - **Form Factor & Dimensions:** `60.00 mm × 20.35 mm` overall (`51.00 mm × 20.35 mm` standard Raspberry Pi Pico 40-pin castellated footprint + `9.00 mm` right-side overhang for Micro-HDMI and USB-C receptacles).
@@ -58,32 +75,14 @@ Native **KiCad 10** hardware translation and JLCPCB 6-layer manufacturing releas
   - `U2` (`NCP133AMX125TCG`, LCSC `C603545`): 500 mA ultra-low-dropout Fixed 1.25 V LDO generating `DDR_1V25` from `1V8` (`VBIAS` = `3V3`).
   - `Q1` (`DMG2305UX-7`, LCSC `C150470`): High-side P-MOSFET switch gating `5V_CORE`.
 
----
-
-## 3. Altium Designer Reference vs. KiCad 10 Port Enhancements
-
-| Domain | Upstream Altium Reference (`v1.1`) | KiCad 10 Port & JLCPCB Release |
-|---|---|---|
-| **EDA Format & Libraries** | Binary Altium `.PrjPcb`/`.SchDoc`/`.PcbDoc` | Native KiCad 10 (`.kicad_pro`/`.kicad_sch`/`.kicad_pcb`) with portable `${KIPRJMOD}` libraries |
-| **19.2 MHz Crystal (`Y1`) Load** | `18 pF` caps (`C6`, `C9`) yielding `11.5 pF` effective load vs `18 pF` crystal spec | Updated `C6`, `C9` to `27 pF` (`C0G`, LCSC `C1656`) for exact `16.0 pF` effective crystal load |
-| **`In4.Cu` Return Plane & Balance** | Bare signal layer (`<5%` copper density), unreferenced `B.Cu` high-speed pairs | Full-board stitched `GND` copper pour on `In4.Cu` + 27 additional `GND` stitching vias (`107` total) |
-| **`5V` Input Trunk Routing** | `0.15 mm` narrow `5V` bridge segment between `J3` VBUS and `U4`/`Q1` | Widened `5V` trunk to `0.50 mm` (`3.3x` width increase) + 3 parallel `5V` stitching vias (`1.8 A` capacity) |
-| **Fine-Pitch Solder Mask Webs** | `0.00 mm` mask opening overlap across `U3` (`0.40 mm` WLCSP) and `J2` (`0.40 mm` Micro-HDMI) | Explicit pad/footprint solder mask margins yielding `0.15 mm` (`U3`) and `0.202 mm` (`J2`) green LPI webs |
-| **SMT Optical Alignment & Teardrops** | No optical fiducials; abrupt pad/via-to-trace transitions | 3 global optical fiducials (`FID1`–`FID3`) with mask/pour clearances + teardrops enabled on all pads/vias |
-| **BOM & LCSC Sourcing** | Discontinued/unstocked parts (`RT9081A`, `DMG1024UV`, `0475710001`, generic LED) | Drop-in LCSC-verified equivalents (`NCP133AMX125TCG` `C603545`, `DMN601VK-7` `C145714`, `47309-2651` `C504691`, `KT-0603G` `C12624`) |
-| **CPL Centroid & Rotation** | Raw Altium exports without JLCPCB package rotation offsets | Automated CPL exporter with verified JLCPCB orientation corrections across all 93 top-side SMT parts |
-
-![Altium vs. KiCad 6-Layer Copper Artwork Comparison](docs/images/altium-vs-kicad-layers-comparison.png)
-
----
-
-## 4. Repository Structure
+## Repository layout
 
 ```text
 .
 ├── Makefile                        # Unified root build, lint, test, validate & fab interface
-├── README.md                       # System architecture, visual comparisons & project documentation
+├── README.md                       # This file
 ├── docs/
+│   ├── VALIDATION.md               # Detailed ERC/DRC/validation results
 │   └── images/                     # Altium vs. KiCad 3D, 6-layer copper, and schematic comparison renders
 └── pcb/
     ├── Makefile                    # Hardware verification (ERC/DRC/PyTest) & JLCPCB fab targets
@@ -111,39 +110,20 @@ Native **KiCad 10** hardware translation and JLCPCB 6-layer manufacturing releas
         └── test_pcb.py             # Automated hardware verification test suite (16/16 passing)
 ```
 
----
-
-## 5. Verification & Validation Summary (`copper-pilot validate`)
-
-All 24 stage-gated checks across stages `S0`–`S8` pass (`PASS: 15 pass, 9 warn, 0 fail, 0 error, 0 skipped`):
-
-| Stage | Check IDs | Result | Summary |
-|---|---|---|---|
-| **S0 Intake** | `intake.tools`, `intake.project`, `intake.intent` | **PASS** | `kicad-cli 10.0.4`, 124 parts, 232 nets, 6 sheets, 6 copper layers |
-| **S1 Architecture** | `arch.review` | **WARN (0 P0/P1)** | Power budget, reset supervisor, and `19.2 MHz` crystal load verified |
-| **S2 Parts** | `parts.bom_fields`, `parts.lcsc`, `parts.symbols`, `parts.footprints` | **PASS / WARN (0 P0/P1)** | 100% LCSC/MPN/Datasheet coverage across all 93 assembled SMT parts |
-| **S3 Schematic** | `sch.erc`, `sch.conventions`, `sch.circuits`, `sch.ratings` | **PASS / WARN (0 P0/P1)** | `0` ERC errors; all regulator feedback dividers and ratings verified |
-| **S4 Netlist/Rules** | `pcb.parity`, `pcb.rules` | **PASS** | `0` schematic-to-PCB parity issues, `0` unconnected items, JLCPCB rules clean |
-| **S5 Placement** | `pcb.placement` | **PASS** | 100% single-sided Top SMT placement with tight PMIC/BGA decoupling loops |
-| **S6 Routing SI/PI** | `pcb.power_routing`, `pcb.signal_integrity` | **WARN (0 P0/P1)** | Continuous `In1.Cu`/`In4.Cu` GND planes, `0.50 mm` `5V` trunk, 107 GND vias |
-| **S7 DFM/DFA** | `pcb.drc`, `dfm.fab`, `dfa.assembly`, `pcb.silkscreen` | **PASS / WARN (0 Fail)** | `0` DRC errors, `>=0.15 mm` solder mask webs, 3 global fiducials (`FID1`–`FID3`) |
-| **S8 Release** | `release.outputs`, `release.repo`, `release.cpl` | **PASS** | 35 Gerber/drill files, portable `${KIPRJMOD}` tables, verified BOM/CPL exports |
-
----
-
-## 6. Quickstart & Verification Commands
+## Building
 
 ```bash
-# Run full test suite and static analysis (16 PyTest checks + KiCad ERC + KiCad DRC)
-make all
-
-# Run KiCad CLI Electrical & Design Rule Checks directly
-make erc
-make drc
-
-# Run CopperPilot stage-gated validation (S0-S8)
-make validate
-
-# Generate complete JLCPCB 6-layer manufacturing release bundle in pcb/build/
-make build-pcb
+make all        # tests, ERC, DRC
+make build-pcb  # JLCPCB Gerbers, drill, BOM and CPL into pcb/build/
 ```
+
+See [pcb/README.md](pcb/README.md) for the stackup, BOM and ordering notes. You still have to supply the RP3A0 yourself: it's harvested from a Raspberry Pi Zero 2W and reballed (see the [upstream guide](https://github.com/jonny12375/rp3a0/blob/main/docs/reballing.md)).
+
+## Credits
+
+- Original design, reverse engineering and prototype: [jonny12375/rp3a0](https://github.com/jonny12375/rp3a0)
+- KiCad port: [CopperPilot](https://github.com/CopperPilot)
+
+---
+
+<sub>Ported from Altium to KiCad by the CopperPilot agent, an AI tool. If something looks off, please open an issue.</sub>

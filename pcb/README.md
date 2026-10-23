@@ -44,7 +44,7 @@ This directory contains the native **KiCad 10** schematic, 6-layer PCB layout, p
 | Sheet Name | File | Contents |
 |---|---|---|
 | `Root` | `rp3a0-mini.kicad_sch` | Top-level hierarchical sheet linking the 5 functional subsheets |
-| `Power` | `rp3a-mini-power.kicad_sch` | `U4` (`PAM2306AYPKE`), `U3` (`RT8088AWSC`), `U2` (`NCP133AMX125TCG`), `Q1` (`DMG2305UX-7`), `Y1` (19.2 MHz crystal with `27 pF` load caps `C6`, `C9`), decoupling, and `U1` Power/GND/PLL units |
+| `Power` | `rp3a-mini-power.kicad_sch` | `U4` (`PAM2306AYPKE`), `U3` (`RT8088AWSC`), `U2` (`NCP133AMX125TCG`), `Q1` (`DMG2305UX-7`), `Y1` (19.2 MHz crystal with `30 pF` load caps `C6`, `C9`), decoupling, and `U1` Power/GND/PLL units |
 | `GPIO` | `rp3a0-mini-gpio.kicad_sch` | `U1` GPIO bank (`GPIO0`–`GPIO27`), I2C pull-ups (`R1`, `R2`), and 40-pin Raspberry Pi Pico castellated edge header (`J5`) |
 | `HDMI_USB` | `rp3a0-mini-hdmi.kicad_sch` | Micro-HDMI (`J2`), TMDS common-mode chokes (`FL1`–`FL4`), CEC/HPD level shifter (`U5`, `DMN601VK-7`), Schottky diode (`D2`), USB-C (`J3`), and `USB_ID` jumper (`J4`) |
 | `Wireless_SD` | `rp3a0-mini-wireless-sd.kicad_sch` | MicroSD card slot (`J1`), `SD_CLK` termination (`R14`, `R15`), and top-side Wi-Fi SDIO / Bluetooth UART test points (`TP10`–`TP22`, `TP28`) |

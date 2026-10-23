@@ -18056,7 +18056,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "27p"
+		(property "Value" "30p"
 			(at 109.22 155.956 90)
 			(hide yes)
 			(show_name no)
@@ -18090,7 +18090,7 @@
 				)
 			)
 		)
-		(property "Description" "18pF 50V C0G 0402 MLCC"
+		(property "Description" "30pF 50V C0G 0402 MLCC"
 			(at 109.22 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -18101,7 +18101,7 @@
 				)
 			)
 		)
-		(property "MPN" "0402CG270J500NT"
+		(property "MPN" "0402CG300J500NT"
 			(at 109.22 149.86 0)
 			(effects
 				(font
@@ -18110,7 +18110,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1557"
+		(property "LCSC" "C1570"
 			(at 109.22 149.86 0)
 			(effects
 				(font
@@ -26631,7 +26631,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "27p"
+		(property "Value" "30p"
 			(at 109.22 176.276 90)
 			(hide yes)
 			(show_name no)
@@ -26665,7 +26665,7 @@
 				)
 			)
 		)
-		(property "Description" "18pF 50V C0G 0402 MLCC"
+		(property "Description" "30pF 50V C0G 0402 MLCC"
 			(at 109.22 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -26676,7 +26676,7 @@
 				)
 			)
 		)
-		(property "MPN" "0402CG270J500NT"
+		(property "MPN" "0402CG300J500NT"
 			(at 109.22 170.18 0)
 			(effects
 				(font
@@ -26685,7 +26685,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1557"
+		(property "LCSC" "C1570"
 			(at 109.22 170.18 0)
 			(effects
 				(font

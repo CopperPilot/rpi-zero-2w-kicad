@@ -7663,7 +7663,7 @@
 				)
 			)
 		)
-		(property "Value" "27p"
+		(property "Value" "30p"
 			(at -5.398155 7.432802 0)
 			(unlocked yes)
 			(layer "F.SilkS")
@@ -7687,7 +7687,7 @@
 				)
 			)
 		)
-		(property "Description" "18pF 50V C0G 0402 MLCC"
+		(property "Description" "30pF 50V C0G 0402 MLCC"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -7698,7 +7698,7 @@
 				)
 			)
 		)
-		(property "MPN" "0402CG270J500NT"
+		(property "MPN" "0402CG300J500NT"
 			(at 159.0011 100.6286 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -7710,7 +7710,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C1557"
+		(property "LCSC" "C1570"
 			(at 159.0011 100.6286 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -14747,7 +14747,7 @@
 				)
 			)
 		)
-		(property "Value" "27p"
+		(property "Value" "30p"
 			(at 2.475845 2.098802 0)
 			(unlocked yes)
 			(layer "F.SilkS")
@@ -14771,7 +14771,7 @@
 				)
 			)
 		)
-		(property "Description" "18pF 50V C0G 0402 MLCC"
+		(property "Description" "30pF 50V C0G 0402 MLCC"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -14782,7 +14782,7 @@
 				)
 			)
 		)
-		(property "MPN" "0402CG270J500NT"
+		(property "MPN" "0402CG300J500NT"
 			(at 159.0011 99.7286 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -14794,7 +14794,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C1557"
+		(property "LCSC" "C1570"
 			(at 159.0011 99.7286 0)
 			(layer "F.Fab")
 			(hide yes)

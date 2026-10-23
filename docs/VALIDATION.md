@@ -30,7 +30,7 @@ The original design is by [jonny12375](https://github.com/jonny12375) ([rp3a0](h
 | Domain | Upstream Altium (`v1.1`) | This KiCad port |
 |---|---|---|
 | **EDA format & libraries** | Binary Altium `.PrjPcb`/`.SchDoc`/`.PcbDoc` | Native KiCad 10 (`.kicad_pro`/`.kicad_sch`/`.kicad_pcb`) with portable `${KIPRJMOD}` libraries |
-| **19.2 MHz crystal (`Y1`) load** | `18 pF` caps (`C6`, `C9`) giving `11.5 pF` effective load vs. `18 pF` crystal spec | `C6`, `C9` changed to `27 pF` (`C0G`, LCSC `C1656`) for `16.0 pF` effective load |
+| **19.2 MHz crystal (`Y1`) load** | `18 pF` caps (`C6`, `C9`) giving `11.5 pF` effective load vs. `18 pF` crystal spec | `C6`, `C9` changed to `30 pF` (`C0G`, LCSC `C1570`) providing `17.5–18.0 pF` effective load ($15.0\text{ pF} + C_{\text{stray}}$) matching the `18 pF` crystal spec |
 | **`In4.Cu` return plane** | Bare signal layer (`<5%` copper), unreferenced `B.Cu` high-speed pairs | Stitched `GND` pour on `In4.Cu` + 27 extra `GND` stitching vias (`107` total) |
 | **`5V` input trunk** | `0.15 mm` neck between `J3` VBUS and `U4`/`Q1` | Widened to `0.50 mm` + 3 parallel `5V` vias |
 | **Fine-pitch solder mask webs** | `0.00 mm` mask web on `U3` (`0.40 mm` WLCSP) and `J2` (`0.40 mm` Micro-HDMI) | Pad mask margins giving `0.15 mm` (`U3`) and `0.202 mm` (`J2`) webs |

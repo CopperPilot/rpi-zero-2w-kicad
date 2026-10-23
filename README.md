@@ -22,7 +22,7 @@ The original is an Altium project, and plenty of people don't have Altium or can
 
 The goal was a faithful copy, but a few things were fixed along the way:
 
-- **Crystal load caps:** `C6`/`C9` went from 18 pF to 27 pF to match the 19.2 MHz crystal's spec.
+- **Crystal load caps:** `C6`/`C9` were resized from 18 pF to 30 pF (0402 C0G, LCSC `C1570`) to correctly match the 19.2 MHz crystal's 18 pF load specification ($C_L = \frac{30 \times 30}{30 + 30} + C_{\text{stray}} \approx 15.0\text{ pF} + 3.0\text{ pF} = 18.0\text{ pF}$, fixing the upstream 18 pF caps which only yielded 11.5 pF effective load).
 - **Ground and power:** added a GND pour on `In4.Cu` with extra stitching vias, and widened a thin 0.15 mm section of the 5V input to 0.50 mm.
 - **Manufacturability:** solder mask webs on the fine-pitch parts (`U3`, `J2`), fiducials and teardrops.
 - **Parts:** a few discontinued or out-of-stock parts swapped for equivalents JLCPCB stocks.
@@ -51,7 +51,7 @@ The full before/after table and the check results are in [docs/VALIDATION.md](do
 |  [J2: Micro-HDMI] <----+-- 4x TMDS (FL1-FL4 EXC24CH900U) + CEC/HPD (U5)|          |
 |                        |                                               |          |
 |  [J1: MicroSD]    <----+-- 4-bit SDIO (SD_CLK, SD_CMD, SD_DAT0..3)     |          |
-|  [Y1: 19.2MHz]    <----+-- Primary Crystal Oscillator (27pF C6, C9)    |          |
+|  [Y1: 19.2MHz]    <----+-- Primary Crystal Oscillator (30pF C6, C9)    |          |
 |  [J5: Pico 40-Pin]<----+-- Castellated GPIO0..GPIO25, 3V3, VBUS, GND   |          |
 +-----------------------------------------------------------------------------------+
 ```
